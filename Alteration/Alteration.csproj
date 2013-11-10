@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{16618EF1-B502-4661-ACB9-7CA118242BF0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Alteration</RootNamespace>
+    <AssemblyName>Alteration</AssemblyName>
+    <ApplicationIcon>AlterationIcon.ico</ApplicationIcon>
+    <StartupObject>Alteration.Program</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=7.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Shared DLLs\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.Direct3DX, Version=1.0.2911.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.DirectDraw, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.DirectInput, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SandBar, Version=1.4.2.1, Culture=neutral, PublicKeyToken=5fd520d36328f741, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Sandbar\Fixed Vista\SandBar.dll</HintPath>
+    </Reference>
+    <Reference Include="SandDock, Version=1.0.6.0, Culture=neutral, PublicKeyToken=75b7ec17dd7c14c3">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Shared DLLs\SandDock.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Extended, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Entity Prey 1 Second Meta Editor Addition Source\bin\Release\System.Extended.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Details\AlterationDetails.cs" />
+    <Compile Include="Details\ChangeLog.cs" />
+    <Compile Include="Forms\Dialog\General\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog\General\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialog\General\PluginRenamerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog\General\PluginRenamerForm.Designer.cs">
+      <DependentUpon>PluginRenamerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialog\Map Form\TagRenameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog\Map Form\TagRenameForm.Designer.cs">
+      <DependentUpon>TagRenameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialog\MapProtectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog\MapProtectorForm.Designer.cs">
+      <DependentUpon>MapProtectorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialog\General\ScreenshotForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog\General\ScreenshotForm.Designer.cs">
+      <DependentUpon>ScreenshotForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Game\ViperTrainerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Game\ViperTrainerForm.Designer.cs">
+      <DependentUpon>ViperTrainerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Building\MapBuilder.cs" />
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\Controls\ControlParentPoker.cs" />
+    <Compile Include="Halo 3\Map File\Meta Editor\Lite\MetaEditorLiteHandler.cs" />
+    <Compile Include="Halo 3\Map File\Plugins\Forms\PluginEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Plugins\Forms\PluginEditorForm.Designer.cs">
+      <DependentUpon>PluginEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Plugins\Forms\PluginLayoutChecker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Plugins\Forms\PluginLayoutChecker.Designer.cs">
+      <DependentUpon>PluginLayoutChecker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Plugins\Classes\PluginLayoutValidator.cs" />
+    <Compile Include="Halo 3\Map File\Raw\BitmapRaw\BitmapRaw.cs" />
+    <Compile Include="Halo 3\Map File\Raw\BitmapRaw\BitmapViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Raw\BitmapRaw\BitmapViewer.designer.cs">
+      <DependentUpon>BitmapViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Raw\BitmapRaw\DXTDecoder.cs" />
+    <Compile Include="Halo 3\Map File\Raw\ModelRaw\Camera.cs" />
+    <Compile Include="Halo 3\Map File\Raw\ModelRaw\MessageConsole.cs" />
+    <Compile Include="Halo 3\Map File\Raw\ModelRaw\ModelExtractor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Raw\ModelRaw\ModelExtractor.designer.cs">
+      <DependentUpon>ModelExtractor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Raw\ModelRaw\ModelRaw.cs" />
+    <Compile Include="Halo 3\Map File\Raw\ModelRaw\ModelViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Raw\ModelRaw\ModelViewer.designer.cs">
+      <DependentUpon>ModelViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Raw\ModelRaw\Renderer.cs" />
+    <Compile Include="Halo 3\Map File\Raw\ModelRaw\RenderHelper.cs" />
+    <Compile Include="Halo 3\Map File\Raw\ModelRaw\Shader.cs" />
+    <Compile Include="Halo 3\Map File\Raw\SoundRaw\SoundRaw.cs" />
+    <Compile Include="Forms\Dialog\Settings\SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog\Settings\SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Xbox Debug Communicator\Dialog\File System\FSNewFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Xbox Debug Communicator\Dialog\File System\FSNewFolder.Designer.cs">
+      <DependentUpon>FSNewFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Xbox Debug Communicator\Dialog\File System\FSRenameFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Xbox Debug Communicator\Dialog\File System\FSRenameFile.Designer.cs">
+      <DependentUpon>FSRenameFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Xbox Debug Communicator\XboxDebugCommunicatorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Xbox Debug Communicator\XboxDebugCommunicatorForm.Designer.cs">
+      <DependentUpon>XboxDebugCommunicatorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Game\H3Screenshot.cs" />
+    <Compile Include="Halo 3\Map File\Misc\Dialogs\SwapTagHeader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Misc\Dialogs\SwapTagHeader.Designer.cs">
+      <DependentUpon>SwapTagHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MapForm.Designer.cs">
+      <DependentUpon>MapForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialog\General\WelcomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog\General\WelcomeForm.Designer.cs">
+      <DependentUpon>WelcomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Content\Map Package\Forms\Create\CreateMapPackageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Content\Map Package\Forms\Create\CreateMapPackageForm.Designer.cs">
+      <DependentUpon>CreateMapPackageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Content\Map Package\Package Classes\Content Packaging\BLFImageFile.cs" />
+    <Compile Include="Halo 3\Content\Map Package\Package Classes\Content Packaging\Header &amp; Footer\BLF_Header.cs" />
+    <Compile Include="Halo 3\Content\Map Package\Package Classes\Content Packaging\Header &amp; Footer\EOF_Footer.cs" />
+    <Compile Include="Halo 3\Content\Map Package\Package Classes\Content Packaging\InfoFile.cs" />
+    <Compile Include="Halo 3\Content\Map Package\Forms\Create\Stages\CMP_Locate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Content\Map Package\Forms\Create\Stages\CMP_Locate.Designer.cs">
+      <DependentUpon>CMP_Locate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Content\Map Package\Forms\Create\Stages\CMP_MapInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Content\Map Package\Forms\Create\Stages\CMP_MapInfo.Designer.cs">
+      <DependentUpon>CMP_MapInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Content\Map Package\Forms\Create\Stages\CMP_SaveProject.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Content\Map Package\Forms\Create\Stages\CMP_SaveProject.Designer.cs">
+      <DependentUpon>CMP_SaveProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Content\Map Package\Forms\Create\Stages\CMP_Welcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Content\Map Package\Forms\Create\Stages\CMP_Welcome.Designer.cs">
+      <DependentUpon>CMP_Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Content\Map Package\Package Classes\Image Editting\BLFImageTransformer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Content\Usermap\HaloUserMap.cs" />
+    <Compile Include="Halo 3\Content\Usermap\MapIdentifier.cs" />
+    <Compile Include="Halo 3\Content\Usermap\OpenUserMapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Content\Usermap\OpenUserMapForm.Designer.cs">
+      <DependentUpon>OpenUserMapForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Content\Usermap\UserMapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Content\Usermap\UserMapForm.Designer.cs">
+      <DependentUpon>UserMapForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\Chunk Clipboard\ChunkClipboard.cs" />
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\Controls\iBitmask.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\Controls\iBitmask.Designer.cs">
+      <DependentUpon>iBitmask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\Controls\iEnum.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\Controls\iEnum.Designer.cs">
+      <DependentUpon>iEnum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\Controls\iIdent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\Controls\iIdent.Designer.cs">
+      <DependentUpon>iIdent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\Controls\iStruct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\Controls\iStruct.Designer.cs">
+      <DependentUpon>iStruct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\Controls\iUnused.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\Controls\iUnused.Designer.cs">
+      <DependentUpon>iUnused.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\Controls\iValue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\Controls\iValue.Designer.cs">
+      <DependentUpon>iValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\Forms\iViewValueAs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\Forms\iViewValueAs.Designer.cs">
+      <DependentUpon>iViewValueAs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\Loader\MetaEditorHandler.cs" />
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\MetaEditorContainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Editor\Full\MetaEditorContainer.Designer.cs">
+      <DependentUpon>MetaEditorContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Grid\Ident Swap\IdentSwapper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Grid\Ident Swap\IdentSwapper.Designer.cs">
+      <DependentUpon>IdentSwapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Grid\MetaGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Grid\MetaGrid.Designer.cs">
+      <DependentUpon>MetaGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Meta Parser\MetaParser.cs" />
+    <Compile Include="Halo 3\Map File\Plugins\Classes\iValues.cs" />
+    <Compile Include="Halo 3\Map File\Plugins\Classes\XmlParser.cs" />
+    <Compile Include="Halo 3\Map File\Raw\RawViewerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Raw\RawViewerControl.Designer.cs">
+      <DependentUpon>RawViewerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\String &amp; Locale\StringLocaleEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\String &amp; Locale\StringLocaleEditor.Designer.cs">
+      <DependentUpon>StringLocaleEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Plugins\Forms\PluginGeneratorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Plugins\Forms\PluginGeneratorForm.Designer.cs">
+      <DependentUpon>PluginGeneratorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halo 3\Map File\Plugins\Classes\PluginLayoutCreator.cs" />
+    <Compile Include="Helpers\BitHelper.cs" />
+    <Compile Include="Patches\File Patch\Classes\AlteredPatch.cs" />
+    <Compile Include="Patches\Memory Patch\Classes\RTHData.cs" />
+    <Compile Include="Patches\Memory Patch\Classes\RTHDataHandler.cs" />
+    <Compile Include="Patches\File Patch\Apply\ApplyRTHDataPatchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patches\File Patch\Apply\ApplyRTHDataPatchForm.Designer.cs">
+      <DependentUpon>ApplyRTHDataPatchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patches\Memory Patch\Forms\Build\BuildRTHDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patches\Memory Patch\Forms\Build\BuildRTHDataForm.Designer.cs">
+      <DependentUpon>BuildRTHDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patches\File Patch\Create\CreateRTHDataPatchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patches\File Patch\Create\CreateRTHDataPatchForm.Designer.cs">
+      <DependentUpon>CreateRTHDataPatchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Dialog\General\About.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialog\General\PluginRenamerForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PluginRenamerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialog\Map Form\TagRenameForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TagRenameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialog\MapProtectorForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MapProtectorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialog\General\ScreenshotForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ScreenshotForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Game\ViperTrainerForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ViperTrainerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\Plugins\Forms\PluginEditorForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PluginEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\Plugins\Forms\PluginLayoutChecker.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PluginLayoutChecker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\Raw\BitmapRaw\BitmapViewer.resx">
+      <DependentUpon>BitmapViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\Raw\ModelRaw\ModelExtractor.resx">
+      <DependentUpon>ModelExtractor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\Raw\ModelRaw\ModelViewer.resx">
+      <DependentUpon>ModelViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialog\Settings\SettingsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Xbox Debug Communicator\Dialog\File System\FSNewFolder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FSNewFolder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Xbox Debug Communicator\Dialog\File System\FSRenameFile.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FSRenameFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Xbox Debug Communicator\XboxDebugCommunicatorForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>XboxDebugCommunicatorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\Misc\Dialogs\SwapTagHeader.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SwapTagHeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MapForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MapForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialog\General\WelcomeForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WelcomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Content\Map Package\Forms\Create\CreateMapPackageForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CreateMapPackageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Content\Map Package\Forms\Create\Stages\CMP_Locate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CMP_Locate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Content\Map Package\Forms\Create\Stages\CMP_MapInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CMP_MapInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Content\Map Package\Forms\Create\Stages\CMP_SaveProject.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CMP_SaveProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Content\Map Package\Forms\Create\Stages\CMP_Welcome.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CMP_Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Content\Usermap\OpenUserMapForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OpenUserMapForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Content\Usermap\UserMapForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UserMapForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\Meta Editor\Full\Controls\iBitmask.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>iBitmask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\Meta Editor\Full\Controls\iEnum.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>iEnum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\Meta Editor\Full\Controls\iIdent.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>iIdent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\Meta Editor\Full\Controls\iStruct.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>iStruct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\Meta Editor\Full\Controls\iUnused.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>iUnused.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\Meta Editor\Full\Controls\iValue.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>iValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\Meta Editor\Full\Forms\iViewValueAs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>iViewValueAs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\Meta Editor\Full\MetaEditorContainer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MetaEditorContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\Meta Grid\Ident Swap\IdentSwapper.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>IdentSwapper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\Meta Grid\MetaGrid.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MetaGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\Raw\RawViewerControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RawViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\String &amp; Locale\StringLocaleEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StringLocaleEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo 3\Map File\Plugins\Forms\PluginGeneratorForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PluginGeneratorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patches\File Patch\Apply\ApplyRTHDataPatchForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ApplyRTHDataPatchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patches\Memory Patch\Forms\Build\BuildRTHDataForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BuildRTHDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patches\File Patch\Create\CreateRTHDataPatchForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CreateRTHDataPatchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings\Security.cs" />
+    <Compile Include="Settings\Settings.cs" />
+    <Compile Include="Update\RC4Engine.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AlterationIcon.ico" />
+    <Content Include="Halo 3\Map File\Scripting\commands.txt" />
+    <Content Include="Halo 3\Map File\Scripting\scriptdb.xml" />
+    <Content Include="Halo 3\Map File\Scripting\valueTypes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AlterationLib\AlterationLib.csproj">
+      <Project>{116B9D40-D12D-4FE3-B207-B158F69AA5A5}</Project>
+      <Name>AlterationLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HaloDeveloper\HaloDeveloper.csproj">
+      <Project>{BBBBCFEE-9F94-456D-802D-CFF94CF80CEA}</Project>
+      <Name>HaloDeveloper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HaloDevelopmentExtender\HaloDevelopmentExtender.csproj">
+      <Project>{30FAD881-5A83-4112-9A72-0A4CF6ECAF7D}</Project>
+      <Name>HaloDevelopmentExtender</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Halo 3\Content\Map Package\Forms\Open\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

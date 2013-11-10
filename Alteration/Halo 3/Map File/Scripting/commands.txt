@@ -1,0 +1,1942 @@
+0	begin
+	unit	<unit> 
+	short	<short> 
+	void	<void> 
+	bool	<void> <void> 
+	ai	<bool> 
+		<void> <void> <void> <bool> 
+		<void> <void> <bool> 
+		<void> <bool> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> 
+		<void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<ai> 
+		<void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <bool> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <bool> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <bool> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <bool> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <bool> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <bool> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <bool> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <bool> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <bool> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <ai> 
+		<void> <void> <void> <void> <void> <void> <ai> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <bool> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <bool> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <bool> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <bool> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <bool> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+
+1	begin_random
+	void	<void> <void> <void> 
+	bool	<void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> 
+		<void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<void> 
+		<void> <void> <void> <void> <void> <void> 
+		<void> <void> <void> <void> <void> <void> <void> <void> <void> 
+		<bool> <bool> <bool> <bool> <bool> 
+		<bool> <bool> <bool> 
+
+2	if
+	void	<bool> <void> <void> 
+	bool	<bool> <bool> <bool> 
+		<bool> <void> 
+
+4	set
+	void	<bool> <bool> 
+	bool	<ai> <ai> 
+		<short> <short> 
+		<int> <int> 
+		<object> <object> 
+		<vehicle> <vehicle> 
+		<unit> <unit> 
+		<unknown (29)> <unknown (29)> 
+		<object_list> <object_list> 
+		<real> <real> 
+		<unknown (24)> <unknown (24)> 
+		<real> <real> 
+
+5	and
+	bool	<bool> <bool> <bool> 
+		<bool> <bool> 
+		<bool> <bool> <bool> <bool> 
+		<bool> <bool> <bool> <bool> <bool> 
+		<bool> <bool> <bool> <bool> <bool> <bool> 
+
+6	or
+	bool	<bool> <bool> 
+		<bool> <bool> <bool> <bool> 
+		<bool> <bool> <bool> 
+		<bool> <bool> <bool> <bool> <bool> 
+		<bool> <bool> <bool> <bool> <bool> <bool> 
+		<bool> <bool> <bool> <bool> <bool> <bool> <bool> 
+		<bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> 
+		<bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> 
+		<bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> 
+		<bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> 
+		<bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> 
+		<bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> <bool> 
+
+7	+
+	short	<real> <real> 
+	real	<real> <real> 
+	int	<real> <real> <real> 
+		<real> <real> 
+
+8	-
+	short	<real> <real> 
+	real	<real> <real> 
+
+9	*
+	short	<real> <real> <real> 
+	int	<real> <real> 
+	real	<real> <real> 
+		<real> <real> 
+
+10	/
+	real	<real> <real> 
+
+11	min
+	short	<real> <real> 
+
+12	max
+	short	<real> <real> 
+
+13	=
+	bool	<unknown (50)> <unknown (50)> 
+		<int> <int> 
+		<short> <short> 
+		<bool> <bool> 
+		<real> <real> 
+		<string> <string> 
+		<unknown (29)> <unknown (29)> 
+
+14	!=
+	bool	<int> <int> 
+		<short> <short> 
+		<ai> <ai> 
+		<unknown (29)> <unknown (29)> 
+
+15	>
+	bool	<real> <real> 
+		<short> <short> 
+		<unknown (50)> <unknown (50)> 
+
+16	<
+	bool	<real> <real> 
+		<short> <short> 
+		<unknown (50)> <unknown (50)> 
+		<int> <int> 
+
+17	>=
+	void	<real> <real> 
+	bool	<real> <real> 
+		<unknown (50)> <unknown (50)> 
+		<short> <short> 
+		<int> <int> 
+
+18	<=
+	bool	<real> <real> 
+		<unknown (50)> <unknown (50)> 
+		<short> <short> 
+		<int> <int> 
+
+19	sleep
+	void	<short> 
+
+20	sleep_forever
+	void	<stringid> 
+		
+
+21	sleep_until
+	void	<bool> <short> 
+	bool	<bool> <short> <int> 
+		<bool> 
+		<bool> 
+
+22	wake
+	void	<stringid> 
+
+24	unit
+	unit	<object> 
+	object	<object> 
+
+25	not
+	bool	<bool> 
+
+27	print
+	void	<string> 
+
+34	kill_active_scripts
+	void	
+
+37	script_started
+	bool	<string> 
+
+38	script_finished
+	bool	<string> 
+
+39	players
+	object_list	
+
+40	kill_volume_enable
+	void	<trigger_volume> 
+
+41	kill_volume_disable
+	void	<trigger_volume> 
+
+42	volume_teleport_players_not_inside
+	void	<trigger_volume> <unknown (14)> 
+
+43	volume_test_object
+	bool	<trigger_volume> <object> 
+
+44	volume_test_objects
+	bool	<trigger_volume> <object_list> 
+
+46	volume_test_players
+	bool	<trigger_volume> 
+
+47	volume_test_players_all
+	bool	<trigger_volume> 
+
+49	volume_return_objects_by_type
+	object_list	<trigger_volume> <int> 
+
+50	zone_set_trigger_volume_enable
+	void	<unknown (11)> <bool> 
+
+51	list_get
+	object	<object_list> <short> 
+	object_list	<object_list> <short> 
+
+52	list_count
+	short	<object_list> 
+
+54	effect_new
+	void	<unknown (34)> <unknown (14)> 
+
+55	effect_new_random
+	void	<unknown (34)> <unknown (29)> 
+
+56	effect_new_at_ai_point
+	void	<unknown (34)> <unknown (29)> 
+
+57	effect_new_on_object_marker
+	void	<unknown (34)> <object> <unknown (11)> 
+
+60	damage_object_effect
+	void	<unknown (35)> <object> 
+
+62	damage_object
+	void	<object> <unknown (11)> <real> 
+
+64	damage_players
+	void	<unknown (35)> 
+
+65	soft_ceiling_enable
+	void	<unknown (11)> <bool> 
+
+66	object_create
+	void	<unknown (72)> 
+
+68	object_create_anew
+	void	<unknown (72)> 
+
+70	object_create_containing
+	void	<string> 
+
+72	object_create_anew_containing
+	void	<string> 
+
+73	object_create_folder
+	void	<unknown (32)> 
+
+74	object_destroy
+	void	<object> 
+
+75	object_destroy_containing
+	void	<string> 
+
+79	object_destroy_folder
+	void	<unknown (32)> 
+
+80	object_hide
+	void	<object> <bool> 
+
+81	object_set_shadowless
+	void	<object> <bool> 
+
+82	object_buckling_magnitude_get
+	real	<object> 
+
+83	object_function_set
+	void	<int> <real> 
+
+84	object_set_function_variable
+	void	<object> <unknown (11)> <real> <real> 
+
+85	object_clear_function_variable
+	void	<object> <unknown (11)> 
+
+87	object_dynamic_simulation_disable
+	void	<object> <bool> 
+
+88	object_set_phantom_power
+	void	<object> <bool> 
+
+89	object_wake_physics
+	void	<object> 
+
+93	object_get_health
+	real	<object> 
+
+94	object_get_shield
+	real	<object> 
+
+96	object_set_physics
+	void	<object> <bool> 
+
+98	objects_attach
+	void	<object> <unknown (11)> <object> <unknown (11)> 
+
+100	objects_detach
+	void	<object> <object> 
+
+101	object_set_scale
+	void	<object> <real> <short> 
+
+102	object_set_velocity
+	void	<object> <real> 
+
+104	object_set_collision_damage_armor_scale
+	void	<object> <real> 
+
+105	object_set_velocity
+	void	<object> <real> <real> <real> 
+
+108	object_model_target_destroyed
+	bool	<object> <unknown (11)> 
+
+109	object_model_targets_destroyed
+	short	<object> <unknown (11)> 
+
+110	object_damage_damage_section
+	void	<object> <unknown (11)> <real> 
+
+111	object_cannot_die
+	void	<object> <bool> 
+
+113	garbage_collect_now
+	void	
+
+114	garbage_collect_unsafe
+	void	
+
+116	object_cannot_take_damage
+	void	<object_list> 
+
+117	object_can_take_damage
+	void	<object_list> 
+
+120	object_cinematic_visibility
+	void	<object> <bool> 
+
+127	object_teleport
+	void	<object> <unknown (14)> 
+
+128	object_teleport_to_ai_point
+	void	<object> <unknown (29)> 
+
+130	object_set_shield
+	void	<object> <real> 
+
+133	object_set_permutation
+	void	<object> <unknown (11)> <unknown (11)> 
+
+134	object_set_region_state
+	void	<object> <unknown (11)> <unknown (62)> 
+
+135	objects_can_see_object
+	bool	<object_list> <object> <real> 
+
+136	objects_can_see_flag
+	bool	<object_list> <unknown (14)> <real> 
+
+137	objects_distance_to_object
+	real	<object_list> <object> 
+
+138	objects_distance_to_flag
+	real	<object_list> <unknown (14)> 
+
+147	random_range
+	short	<short> <short> 
+	int	<short> <short> 
+	real	<short> <short> 
+	bool	<short> <short> 
+	void	<short> <short> 
+
+148	real_random_range
+	real	<real> <real> 
+
+170	texture_camera_set_object_marker
+	void	<object> <unknown (11)> <real> 
+
+176	texture_camera_on
+	void	
+
+178	texture_camera_off
+	void	
+
+179	texture_camera_set_aspect_ratio
+	void	<real> 
+
+184	texture_camera_enable_dynamic_lights
+	void	<bool> 
+
+204	scenery_animation_start
+	void	<unknown (70)> <unknown (37)> <unknown (11)> 
+
+205	scenery_animation_start_loop
+	void	<unknown (70)> <unknown (37)> <unknown (11)> 
+
+206	scenery_animation_start_relative
+	void	<unknown (70)> <unknown (37)> <unknown (11)> <object> 
+
+207	scenery_animation_start_relative_loop
+	void	<unknown (70)> <unknown (37)> <unknown (11)> <object> 
+
+211	scenery_get_animation_time
+	real	<unknown (70)> 
+	short	<unknown (70)> 
+
+213	unit_set_active_camo
+	void	<unit> <bool> <real> 
+
+214	unit_open
+	void	<unit> 
+
+215	unit_close
+	void	<unit> 
+
+216	unit_kill
+	void	<unit> 
+
+219	unit_get_custom_animation_time
+	short	<unit> 
+
+220	unit_stop_custom_animation
+	void	<unit> 
+
+221	custom_animation
+	void	<unit> <unknown (37)> <unknown (11)> <bool> 
+
+222	custom_animation_loop
+	void	<unit> <unknown (37)> <unknown (11)> <bool> 
+
+223	custom_animation_relative
+	void	<unit> <unknown (37)> <unknown (11)> <bool> <object> 
+
+224	custom_animation_relative_loop
+	void	<unit> <unknown (37)> <unknown (11)> <bool> <object> 
+
+228	unit_is_playing_custom_animation
+	bool	<unit> 
+
+234	unit_get_team_index
+	short	<unit> 
+
+236	unit_set_enterable_by_player
+	void	<unit> <bool> 
+
+238	unit_only_takes_damage_from_players_team
+	void	<unit> <bool> 
+
+239	unit_enter_vehicle
+	void	<unit> <vehicle> <unknown (11)> 
+
+240	unit_falling_damage_disable
+	void	<unit> <bool> 
+
+242	object_get_turret
+	unit	<object> <short> 
+	vehicle	<object> <short> 
+
+243	unit_board_vehicle
+	void	<unit> <unknown (11)> 
+
+245	unit_set_emotion_by_name
+	void	<unit> <unknown (11)> <real> <real> 
+
+247	unit_set_integrated_flashlight
+	void	<unit> <bool> 
+
+248	unit_in_vehicle
+	bool	<unit> 
+
+249	vehicle_test_seat_list
+	bool	<vehicle> <unknown (11)> <object_list> 
+
+250	vehicle_test_seat
+	bool	<vehicle> <unknown (11)> <unit> 
+
+252	unit_exit_vehicle
+	void	<unit> 
+
+254	unit_set_maximum_vitality
+	void	<unit> <real> <real> 
+
+255	units_set_maximum_vitality
+	void	<object_list> <real> <real> 
+
+256	unit_set_current_vitality
+	void	<unit> <real> <real> 
+
+257	units_set_current_vitality
+	void	<object_list> <real> <real> 
+
+258	vehicle_load_magic
+	void	<object> <unknown (12)> <object_list> 
+
+259	vehicle_unload
+	void	<object> <unknown (12)> 
+
+262	vehicle_riders
+	object_list	<unit> 
+
+263	vehicle_driver
+	object	<unit> 
+	unit	<unit> 
+
+264	vehicle_gunner
+	object	<unit> 
+	unit	<unit> 
+
+265	unit_get_health
+	real	<unit> 
+
+266	unit_get_shield
+	real	<unit> 
+
+268	unit_has_weapon
+	bool	<unit> <unknown (39)> 
+
+269	unit_has_weapon_readied
+	bool	<unit> <unknown (39)> 
+
+272	unit_lower_weapon
+	void	<unit> <short> 
+
+273	unit_raise_weapon
+	void	<unit> <short> 
+
+274	unit_drop_support_weapon
+	void	<unit> 
+
+280	unit_add_equipment
+	void	<unit> <unknown (25)> <bool> <bool> 
+
+283	device_set_never_appears_locked
+	void	<device> <bool> 
+
+284	device_set_power
+	void	<device> <real> 
+
+285	device_get_power
+	real	<device> 
+
+286	device_set_position
+	void	<device> <real> 
+
+287	device_get_position
+	real	<device> 
+
+288	device_set_position_immediate
+	void	<device> <real> 
+
+289	device_group_get
+	real	<unknown (18)> 
+
+291	device_group_set_immediate
+	void	<unknown (18)> <real> 
+
+292	device_one_sided_set
+	void	<device> <bool> 
+
+294	device_operates_automatically_set
+	void	<device> <bool> 
+
+295	device_closes_automatically_set
+	void	<device> <bool> 
+
+296	device_group_change_only_once_more_set
+	void	<unknown (18)> <bool> 
+
+297	device_set_position_track
+	void	<device> <unknown (11)> <real> 
+
+298	device_set_overlay_track
+	void	<device> <unknown (11)> 
+
+299	device_animate_position
+	void	<device> <real> <real> <real> <real> <bool> 
+
+300	device_animate_overlay
+	void	<device> <real> <real> <real> <real> 
+
+312	ai_grenades
+	void	<bool> 
+
+313	ai_dialogue_enable
+	void	<bool> 
+
+317	ai_get_object
+	object_list	<ai> 
+	object	<ai> 
+
+318	ai_get_unit
+	unit	<ai> 
+	object_list	<ai> 
+
+319	ai_get_squad
+	ai	<ai> 
+
+320	ai_get_turret_ai
+	ai	<ai> <short> 
+
+321	ai_random_smart_point
+	unknown (29)	<unknown (29)> <real> <real> <real> 
+
+322	ai_nearest_point
+	unknown (29)	<object> <unknown (29)> 
+
+323	ai_get_point_count
+	short	<unknown (29)> 
+	real	<unknown (29)> 
+
+324	ai_point_set_get_point
+	unknown (29)	<unknown (29)> <short> 
+
+329	ai_place
+	void	<ai> 
+
+330	ai_place
+	void	<ai> <short> 
+
+331	ai_place_in_vehicle
+	void	<ai> <ai> 
+
+332	ai_cannot_die
+	void	<ai> <bool> 
+
+334	ai_resurrect
+	void	<object> 
+
+335	ai_kill
+	void	<ai> 
+
+336	ai_kill_silent
+	void	<ai> 
+
+337	ai_erase
+	void	<ai> 
+
+338	ai_erase_all
+	void	
+
+339	ai_disposable
+	void	<ai> <bool> 
+
+342	ai_set_deaf
+	void	<ai> <bool> 
+
+343	ai_set_blind
+	void	<ai> <bool> 
+
+344	ai_set_weapon_up
+	void	<ai> <bool> 
+
+345	ai_flood_disperse
+	void	<ai> <ai> 
+
+346	ai_magically_see
+	void	<ai> <ai> 
+
+347	ai_magically_see_object
+	void	<ai> <object> 
+
+348	ai_set_active_camo
+	void	<ai> <bool> 
+
+350	ai_migrate
+	void	<ai> <ai> 
+
+351	ai_allegiance
+	void	<unknown (51)> <unknown (51)> 
+
+352	ai_allegiance_remove
+	void	<unknown (51)> <unknown (51)> 
+
+353	ai_allegiance_break
+	void	<unknown (51)> <unknown (51)> 
+
+354	ai_braindead
+	void	<ai> <bool> 
+
+356	ai_disregard
+	void	<object_list> <bool> 
+
+357	ai_prefer_target
+	void	<object_list> <bool> 
+
+358	ai_prefer_target_team
+	void	<ai> <unknown (51)> 
+
+359	ai_prefer_target_ai
+	void	<ai> <ai> <bool> 
+
+360	ai_set_targeting_group
+	void	<ai> <short> 
+
+361	ai_set_targeting_group
+	void	<ai> <short> <bool> 
+
+363	ai_teleport
+	void	<ai> <unknown (29)> 
+
+364	ai_bring_forward
+	void	<object> <real> 
+
+367	biped_morph
+	void	<object> 
+
+368	ai_renew
+	void	<ai> 
+
+369	ai_force_active
+	void	<ai> <bool> 
+
+373	ai_berserk
+	void	<ai> <bool> 
+
+378	ai_living_count
+	short	<ai> 
+	real	<ai> 
+
+380	ai_in_vehicle_count
+	short	<ai> 
+
+381	ai_body_count
+	short	<ai> 
+
+382	ai_strength
+	real	<ai> 
+
+383	ai_swarm_count
+	short	<ai> 
+	real	<ai> 
+
+384	ai_nonswarm_count
+	short	<ai> 
+	real	<ai> 
+
+385	ai_actors
+	object_list	<ai> 
+
+386	ai_allegiance_broken
+	bool	<unknown (51)> <unknown (51)> 
+
+387	ai_spawn_count
+	real	<ai> 
+	short	<ai> 
+
+388	object_get_ai
+	ai	<object> 
+	vehicle	<object> 
+
+391	ai_set_task
+	void	<ai> <unknown (11)> <unknown (11)> 
+
+392	ai_set_objective
+	void	<ai> <unknown (11)> 
+
+393	ai_task_status
+	short	<ai> 
+
+394	ai_set_task_condition
+	void	<ai> <bool> 
+
+397	ai_task_count
+	short	<ai> 
+	real	<ai> 
+
+400	ai_activity_set
+	void	<ai> <unknown (11)> 
+
+401	ai_activity_abort
+	void	<ai> 
+
+402	ai_vehicle_get
+	unit	<ai> 
+	vehicle	<ai> 
+	object	<ai> 
+	object_list	<ai> 
+
+403	ai_vehicle_get_from_starting_location
+	unit	<ai> 
+	object	<ai> 
+	vehicle	<ai> 
+	object_list	<ai> 
+
+404	ai_vehicle_reserve_seat
+	void	<vehicle> <unknown (12)> <bool> 
+
+405	ai_vehicle_reserve
+	void	<vehicle> <bool> 
+
+406	ai_player_get_vehicle_squad
+	ai	<unit> 
+	vehicle	<unit> 
+
+409	player_in_vehicle
+	bool	<vehicle> 
+
+411	ai_player_any_needs_vehicle
+	bool	
+
+412	ai_vehicle_enter
+	void	<ai> <unit> <unknown (12)> 
+
+413	ai_vehicle_enter
+	void	<ai> <unit> 
+
+414	ai_vehicle_enter_immediate
+	void	<ai> <unit> <unknown (12)> 
+
+415	ai_vehicle_enter_immediate
+	void	<ai> <unit> 
+
+416	ai_enter_squad_vehicles
+	void	<ai> 
+
+418	ai_vehicle_exit
+	void	<ai> 
+
+421	ai_combat_status
+	short	<ai> 
+
+422	flock_start
+	void	<unknown (11)> 
+
+423	flock_stop
+	void	<unknown (11)> 
+
+424	flock_create
+	void	<unknown (11)> 
+
+425	flock_delete
+	void	<unknown (11)> 
+
+431	ai_play_line
+	void	<ai> <unknown (24)> 
+	short	<ai> <unknown (24)> 
+
+432	ai_play_line_at_player
+	short	<ai> <unknown (24)> 
+	void	<ai> <unknown (24)> 
+
+433	ai_play_line_on_object
+	short	<object> <unknown (24)> 
+	void	<object> <unknown (24)> 
+	real	<object> <unknown (24)> 
+
+435	ai_play_line_on_point_set
+	void	<unknown (11)> <unknown (29)> <short> 
+
+436	ai_play_line_on_point_set
+	short	<unknown (11)> <unknown (29)> <short> <unknown (11)> 
+
+437	campaign_metagame_time_pause
+	void	<bool> 
+
+438	campaign_metagame_award_points
+	void	<object> <short> 
+
+439	campaign_metagame_award_primary_skull
+	void	<object> <short> 
+
+440	campaign_metagame_award_secondary_skull
+	void	<object> <short> 
+
+441	campaign_metagame_enabled
+	bool	
+
+443	campaign_is_finished_normal
+	bool	
+
+444	campaign_is_finished_heroic
+	bool	
+
+445	campaign_is_finished_legendary
+	bool	
+
+446	cs_run_command_script
+	void	<ai> <unknown (21)> 
+
+447	cs_queue_command_script
+	void	<ai> <unknown (21)> 
+
+449	vs_reserve
+	void	<ai> <short> 
+
+450	vs_reserve
+	void	<ai> <bool> <short> 
+
+451	vs_cast
+	void	<ai> <bool> <short> <unknown (11)> 
+
+452	vs_cast
+	void	<ai> <bool> <short> <unknown (11)> <unknown (11)> 
+
+453	vs_cast
+	void	<ai> <bool> <short> <unknown (11)> <unknown (11)> <unknown (11)> 
+
+454	vs_cast
+	void	<ai> <bool> <short> <unknown (11)> <unknown (11)> <unknown (11)> <unknown (11)> 
+
+457	vs_cast
+	void	<ai> <bool> <short> <unknown (11)> <unknown (11)> <unknown (11)> <unknown (11)> <unknown (11)> <unknown (11)> <unknown (11)> 
+
+458	vs_role
+	ai	<short> 
+
+459	vs_abort_on_alert
+	void	<bool> 
+
+460	vs_abort_on_damage
+	void	<bool> 
+
+462	vs_abort_on_vehicle_exit
+	void	<bool> 
+
+463	cs_abort_on_alert
+	void	<bool> 
+
+464	cs_abort_on_damage
+	void	<bool> 
+
+465	cs_abort_on_combat_status
+	void	<short> 
+
+466	cs_abort_on_vehicle_exit
+	void	<bool> 
+
+468	vs_abort_on_alert
+	void	<ai> <bool> 
+
+470	vs_abort_on_damage
+	void	<ai> <bool> 
+
+472	vs_abort_on_combat_status
+	void	<ai> <short> 
+
+475	vs_set_cleanup_script
+	void	<stringid> 
+
+476	vs_release
+	void	<ai> 
+
+477	vs_release_all
+	void	
+
+478	cs_command_script_running
+	bool	<ai> <unknown (21)> 
+
+483	vs_running_atom
+	bool	<ai> 
+
+484	vs_running_atom_movement
+	bool	<ai> 
+
+486	vs_running_atom_dialogue
+	bool	<ai> 
+
+487	cs_fly_to
+	void	<unknown (29)> 
+
+488	vs_fly_to
+	void	<ai> <bool> <unknown (29)> 
+
+489	cs_fly_to
+	void	<unknown (29)> <real> 
+
+490	vs_fly_to
+	void	<ai> <bool> <unknown (29)> <real> 
+
+491	cs_fly_to_and_face
+	void	<unknown (29)> <unknown (29)> 
+
+492	vs_fly_to_and_face
+	void	<ai> <bool> <unknown (29)> <unknown (29)> 
+
+493	cs_fly_to_and_face
+	void	<unknown (29)> <unknown (29)> <real> 
+
+494	vs_fly_to_and_face
+	void	<ai> <bool> <unknown (29)> <unknown (29)> <real> 
+
+495	cs_fly_by
+	void	<unknown (29)> 
+
+497	cs_fly_by
+	void	<unknown (29)> <real> 
+
+499	cs_go_to
+	void	<unknown (29)> 
+
+500	vs_go_to
+	void	<ai> <bool> <unknown (29)> 
+
+501	cs_go_to
+	void	<unknown (29)> <real> 
+
+502	vs_go_to
+	void	<ai> <bool> <unknown (29)> <real> 
+
+503	cs_go_by
+	void	<unknown (29)> <unknown (29)> 
+
+507	cs_go_to_and_face
+	void	<unknown (29)> <unknown (29)> 
+
+508	vs_go_to_and_face
+	void	<ai> <bool> <unknown (29)> <unknown (29)> 
+
+509	cs_go_to_and_posture
+	void	<unknown (29)> <unknown (11)> 
+
+510	vs_go_to_and_posture
+	void	<ai> <bool> <unknown (29)> <unknown (11)> 
+
+511	cs_go_to_nearest
+	void	<unknown (29)> 
+
+512	vs_go_to_nearest
+	void	<ai> <bool> <unknown (29)> 
+
+513	cs_move_in_direction
+	void	<real> <real> <real> 
+
+514	vs_move_in_direction
+	void	<ai> <bool> <real> <real> <real> 
+
+517	cs_move_towards
+	void	<object> <bool> 
+
+519	cs_swarm_to
+	void	<unknown (29)> <real> 
+
+520	vs_swarm_to
+	void	<ai> <bool> <unknown (29)> <real> 
+
+521	cs_swarm_from
+	void	<unknown (29)> <real> 
+
+522	vs_swarm_from
+	void	<ai> <bool> <unknown (29)> <real> 
+
+523	cs_pause
+	void	<real> 
+
+525	cs_grenade
+	void	<unknown (29)> <short> 
+
+526	vs_grenade
+	void	<ai> <bool> <unknown (29)> <short> 
+
+527	cs_equipment
+	void	<unknown (29)> 
+
+529	cs_jump
+	void	<real> <real> 
+
+530	vs_jump
+	void	<ai> <bool> <real> <real> 
+
+531	cs_jump_to_point
+	void	<real> <real> 
+
+535	cs_play_sound
+	void	<unknown (33)> 
+
+541	cs_action
+	void	<unknown (29)> <short> 
+
+542	vs_action
+	void	<ai> <bool> <unknown (29)> <short> 
+
+544	vs_action_at_object
+	void	<ai> <bool> <object> <short> 
+
+545	cs_action_at_player
+	void	<short> 
+
+546	vs_action_at_player
+	void	<ai> <bool> <short> 
+
+547	cs_custom_animation
+	void	<unknown (37)> <unknown (11)> <bool> 
+
+548	vs_custom_animation
+	void	<ai> <bool> <unknown (37)> <unknown (11)> <bool> 
+
+549	cs_custom_animation
+	void	<unknown (37)> <unknown (11)> <bool> <unknown (29)> 
+
+550	vs_custom_animation
+	void	<ai> <bool> <unknown (37)> <unknown (11)> <bool> <unknown (29)> 
+
+554	vs_custom_animation_death
+	void	<ai> <bool> <unknown (37)> <unknown (11)> <bool> <unknown (29)> 
+
+556	vs_custom_animation_loop
+	void	<ai> <unknown (37)> <unknown (11)> <bool> 
+
+558	vs_custom_animation_loop
+	void	<ai> <unknown (37)> <unknown (11)> <bool> <unknown (29)> 
+
+559	cs_play_line
+	void	<unknown (24)> 
+
+560	vs_play_line
+	void	<ai> <bool> <unknown (24)> 
+
+563	cs_deploy_turret
+	void	<unknown (29)> 
+
+566	vs_approach
+	void	<ai> <bool> <object> <real> <real> <real> 
+
+567	cs_approach_player
+	void	<real> <real> <real> 
+
+568	vs_approach_player
+	void	<ai> <bool> <real> <real> <real> 
+
+569	cs_go_to_vehicle
+	void	<vehicle> 
+
+571	cs_go_to_vehicle
+	void	<vehicle> <unknown (12)> 
+
+572	vs_go_to_vehicle
+	void	<ai> <bool> <vehicle> <unknown (12)> 
+
+575	cs_force_combat_status
+	void	<short> 
+
+576	vs_force_combat_status
+	void	<ai> <short> 
+
+577	cs_enable_targeting
+	void	<bool> 
+
+578	vs_enable_targeting
+	void	<ai> <bool> 
+
+579	cs_enable_looking
+	void	<bool> 
+
+580	vs_enable_looking
+	void	<ai> <bool> 
+
+581	cs_enable_moving
+	void	<bool> 
+
+582	vs_enable_moving
+	void	<ai> <bool> 
+
+583	cs_enable_dialogue
+	void	<bool> 
+
+584	vs_enable_dialogue
+	void	<ai> <bool> 
+
+585	cs_suppress_activity_termination
+	void	<bool> 
+
+589	cs_look
+	void	<bool> <unknown (29)> 
+
+590	vs_look
+	void	<ai> <bool> <unknown (29)> 
+
+591	cs_look_player
+	void	<bool> 
+
+592	vs_look_player
+	void	<ai> <bool> 
+
+593	cs_look_object
+	void	<bool> <object> 
+
+594	vs_look_object
+	void	<ai> <bool> <object> 
+
+595	cs_aim
+	void	<bool> <unknown (29)> 
+
+596	vs_aim
+	void	<ai> <bool> <unknown (29)> 
+
+597	cs_aim_player
+	void	<bool> 
+
+598	vs_aim_player
+	void	<ai> <bool> 
+
+599	cs_aim_object
+	void	<bool> <object> 
+
+600	vs_aim_object
+	void	<ai> <bool> <object> 
+
+601	cs_face
+	void	<bool> <unknown (29)> 
+
+602	vs_face
+	void	<ai> <bool> <unknown (29)> 
+
+603	cs_face_player
+	void	<bool> 
+
+604	vs_face_player
+	void	<ai> <bool> 
+
+605	cs_face_object
+	void	<bool> <object> 
+
+606	vs_face_object
+	void	<ai> <bool> <object> 
+
+607	cs_shoot
+	void	<bool> 
+
+608	vs_shoot
+	void	<ai> <bool> 
+
+609	cs_shoot
+	void	<bool> <object> 
+
+610	vs_shoot
+	void	<ai> <bool> <object> 
+
+611	cs_shoot_point
+	void	<bool> <unknown (29)> 
+
+612	vs_shoot_point
+	void	<ai> <bool> <unknown (29)> 
+
+613	cs_shoot_secondary_trigger
+	void	<bool> 
+
+615	cs_lower_weapon
+	void	<bool> 
+
+616	vs_lower_weapon
+	void	<ai> <bool> 
+
+617	cs_vehicle_speed
+	void	<real> 
+
+618	vs_vehicle_speed
+	void	<ai> <real> 
+
+619	cs_vehicle_speed_instantaneous
+	void	<real> 
+
+621	cs_vehicle_boost
+	void	<bool> 
+
+625	cs_enable_pathfinding_failsafe
+	void	<bool> 
+
+626	vs_enable_pathfinding_failsafe
+	void	<ai> <bool> 
+
+629	cs_ignore_obstacles
+	void	<bool> 
+
+632	vs_approach_stop
+	void	<ai> 
+
+633	cs_movement_mode
+	void	<short> 
+
+634	vs_movement_mode
+	void	<ai> <short> 
+
+635	cs_crouch
+	void	<bool> 
+
+636	vs_crouch
+	void	<ai> <bool> 
+
+637	cs_crouch
+	void	<bool> <real> 
+
+638	vs_crouch
+	void	<ai> <bool> <real> 
+
+639	cs_walk
+	void	<bool> 
+
+640	vs_walk
+	void	<ai> <bool> 
+
+641	cs_posture_set
+	void	<unknown (11)> <bool> 
+
+642	vs_posture_set
+	void	<ai> <unknown (11)> <bool> 
+
+643	cs_posture_exit
+	void	
+
+644	vs_posture_exit
+	void	<ai> 
+
+645	cs_stow
+	void	
+
+646	vs_stow
+	void	<ai> 
+
+647	cs_draw
+	void	
+
+648	vs_draw
+	void	<ai> 
+
+649	cs_teleport
+	void	<unknown (29)> <unknown (29)> 
+
+650	vs_teleport
+	void	<ai> <unknown (29)> <unknown (29)> 
+
+651	cs_stop_custom_animation
+	void	
+
+652	vs_stop_custom_animation
+	void	<ai> 
+
+654	vs_stop_sound
+	void	<ai> <unknown (33)> 
+
+661	camera_control
+	void	<bool> 
+
+662	camera_set
+	void	<unknown (15)> <short> 
+
+667	camera_set_animation_relative_with_speed
+	void	<unknown (37)> <unknown (11)> <unit> <unknown (14)> <real> 
+
+673	camera_set_cinematic
+	void	
+
+674	camera_set_cinematic_scene
+	void	<unknown (46)> <int> <unknown (14)> 
+
+680	cinematic_camera_set_easing_out
+	void	<real> 
+
+681	cinematic_print
+	void	<string> 
+
+689	game_difficulty_get
+	unknown (50)	
+
+690	game_difficulty_get_real
+	unknown (50)	
+
+691	game_insertion_point_get
+	short	
+
+693	pvs_set_object
+	void	<object> 
+
+698	player_enable_input
+	void	<bool> 
+
+699	player_disable_movement
+	void	<bool> 
+
+703	player_camera_control
+	void	<bool> 
+
+704	player_action_test_reset
+	void	
+
+706	player_action_test_primary_trigger
+	bool	
+	void	
+
+707	player_action_test_grenade_trigger
+	bool	
+	void	
+
+712	player_action_test_melee
+	bool	
+
+714	player_action_test_accept
+	bool	
+
+722	player_action_test_cinematic_skip
+	bool	
+
+727	player0_set_pitch
+	void	<real> <int> 
+
+728	player1_set_pitch
+	void	<real> <int> 
+
+729	player2_set_pitch
+	void	<real> <int> 
+
+730	player3_set_pitch
+	void	<real> <int> 
+
+731	player_action_test_look_up_begin
+	void	<real> <real> 
+
+732	player_action_test_look_down_begin
+	void	<real> <real> 
+
+733	player_action_test_look_pitch_end
+	void	
+
+734	player_action_test_lookstick_forward
+	bool	
+
+735	player_action_test_lookstick_backward
+	bool	
+
+737	map_reset
+	void	
+
+740	switch_zone_set
+	void	<unknown (27)> 
+
+741	current_zone_set
+	int	
+	short	
+
+742	current_zone_set_fully_active
+	int	
+	short	
+
+798	fade_in
+	void	<real> <real> <real> <short> 
+
+799	fade_out
+	void	<real> <real> <real> <short> 
+
+800	cinematic_start
+	void	
+
+801	cinematic_stop
+	void	
+
+802	cinematic_skip_start_internal
+	void	
+
+803	cinematic_skip_stop_internal
+	void	
+
+804	cinematic_show_letterbox
+	void	<bool> 
+
+805	cinematic_show_letterbox_immediate
+	void	<bool> 
+
+806	cinematic_set_title
+	void	<unknown (16)> 
+
+809	cinematic_subtitle
+	void	<unknown (11)> <real> 
+
+810	cinematic_set
+	void	<unknown (45)> 
+
+811	cinematic_set_shot
+	void	<unknown (46)> <int> 
+
+813	cinematic_set_early_exit
+	void	<int> 
+
+814	cinematic_get_early_exit
+	int	
+
+817	cinematic_object_create_cinematic_anchor
+	void	<string> <unknown (14)> 
+
+818	cinematic_object_destroy
+	void	<string> 
+
+819	cinematic_destroy
+	void	
+
+820	cinematic_clips_initialize_for_shot
+	void	<int> 
+
+821	cinematic_clips_destroy
+	void	
+
+822	cinematic_lights_initialize_for_shot
+	void	<int> 
+
+823	cinematic_lights_destroy
+	void	
+
+824	cinematic_light_object
+	void	<object> <unknown (11)> <unknown (79)> <unknown (15)> 
+
+826	cinematic_lighting_rebuild_all
+	void	
+
+827	cinematic_object_get
+	object	<string> 
+
+828	cinematic_object_get_unit
+	object	<string> 
+	unit	<string> 
+
+829	cinematic_object_get_scenery
+	object	<string> 
+
+832	camera_set_briefing
+	void	<bool> 
+
+833	cinematic_tag_reference_get_cinematic
+	unknown (45)	<int> 
+
+834	cinematic_tag_reference_get_scene
+	unknown (46)	<int> <int> 
+
+841	cinematic_scripting_fade_out
+	void	<real> <real> <real> <short> 
+
+845	cinematic_scripting_destroy_object
+	void	<int> <int> <int> <object> 
+
+846	cinematic_scripting_start_effect
+	void	<int> <int> <int> <int> <object> 
+
+847	cinematic_scripting_start_music
+	void	<int> <int> <int> <int> 
+
+848	cinematic_scripting_start_dialogue
+	void	<int> <int> <int> <int> <object> 
+
+851	cinematic_scripting_create_and_animate_cinematic_object
+	void	<int> <int> <int> <object> <unknown (11)> <bool> 
+
+852	cinematic_scripting_create_and_animate_object_no_animation
+	void	<int> <int> <int> <unknown (72)> <object> <bool> 
+
+854	cinematic_scripting_play_cortana_effect
+	void	<int> <int> <int> <int> 
+
+857	game_won
+	void	
+
+859	game_revert
+	void	
+
+860	game_is_cooperative
+	bool	
+
+862	game_can_use_flashlights
+	void	<bool> 
+
+865	game_insertion_point_unlock
+	void	<short> 
+
+914	game_safe_to_save
+	bool	
+
+917	game_save
+	void	
+
+918	game_save_cancel
+	void	
+
+919	game_save_no_timeout
+	void	
+
+920	game_save_immediate
+	void	
+
+921	game_saving
+	bool	
+
+922	game_reverted
+	bool	
+
+925	sound_impulse_trigger
+	void	<unknown (33)> <object> <real> <int> 
+
+926	sound_impulse_start
+	void	<unknown (33)> <object> <real> 
+
+927	sound_impulse_start_cinematic
+	void	<unknown (33)> <object> <real> <real> <real> 
+
+929	sound_impulse_start_with_subtitle
+	void	<unknown (33)> <object> <real> <unknown (11)> <unknown (11)> 
+
+932	sound_impulse_language_time
+	short	<unknown (33)> 
+	int	<unknown (33)> 
+	real	<unknown (33)> 
+
+933	sound_impulse_stop
+	void	<unknown (33)> 
+
+935	sound_impulse_mark_as_outro
+	void	<unknown (33)> 
+
+938	sound_looping_start
+	void	<unknown (36)> <object> <real> 
+
+939	sound_looping_stop
+	void	<unknown (36)> 
+
+942	sound_looping_set_alternate
+	void	<unknown (36)> <bool> 
+
+947	sound_class_set_gain
+	void	<string> <real> <short> 
+
+948	sound_class_set_gain_db
+	void	<string> <real> <short> 
+
+953	vehicle_auto_turret
+	void	<vehicle> <trigger_volume> <real> <real> <real> 
+
+954	vehicle_hover
+	void	<vehicle> <bool> 
+
+958	hud_show_training_text
+	void	<bool> 
+
+959	hud_set_training_text
+	void	<unknown (11)> 
+
+960	hud_enable_training
+	void	<bool> 
+
+961	player_training_activate_flashlight
+	void	
+
+965	player_training_activate_jump
+	void	
+
+966	hud_activate_team_nav_point_flag
+	void	<unknown (51)> <unknown (14)> <real> 
+
+967	hud_deactivate_team_nav_point_flag
+	void	<unknown (51)> <unknown (14)> 
+
+968	chud_cortana_suck
+	void	<object> <unknown (11)> <bool> 
+
+971	play_cortana_effect
+	void	<unknown (11)> 
+
+973	chud_show_weapon_stats
+	void	<bool> 
+
+975	chud_show_shield
+	void	<bool> 
+
+976	chud_show_grenades
+	void	<bool> 
+
+978	chud_show_motion_sensor
+	void	<bool> 
+
+979	chud_show_spike_grenades
+	void	<bool> 
+
+980	chud_show_fire_grenades
+	void	<bool> 
+
+981	chud_cinematic_fade
+	void	<real> <real> 
+
+990	player_effect_set_max_rotation
+	void	<real> <real> <real> 
+
+991	player_effect_set_max_rumble
+	void	<real> <real> 
+
+992	player_effect_start
+	void	<real> <real> 
+
+993	player_effect_stop
+	void	<real> 
+
+1004	render_atmosphere_fog
+	void	<bool> 
+
+1005	motion_blur
+	void	<bool> 
+
+1006	render_weather
+	void	<bool> 
+
+1007	render_patchy_fog
+	void	<bool> 
+
+1018	controller_set_look_invert
+	void	<bool> 
+
+1019	controller_get_look_invert
+	bool	
+
+1098	objectives_clear
+	void	
+
+1099	objectives_show_up_to
+	void	<int> 
+
+1100	objectives_finish_up_to
+	void	<int> 
+
+1101	objectives_secondary_show
+	void	<int> 
+
+1103	objectives_secondary_unavailable
+	void	<int> 
+
+1161	data_mine_set_mission_segment
+	void	<string> 
+
+1251	game_save_cinematic_skip
+	void	
+
+1252	cinematic_outro_start
+	void	
+
+1271	render_exposure_fade_out
+	void	<real> 
+
+1272	render_exposure
+	void	<real> <real> 
+
+1273	render_autoexposure_instant
+	void	<int> 
+
+1275	render_depth_of_field_enable
+	void	<bool> 
+
+1332	game_coop_player_count
+	int	
+	short	
+
+1337	add_recycling_volume
+	void	<trigger_volume> <int> <int> 
+
+1366	object_set_always_active
+	void	<object> <bool> 
+
+1372	object_set_persistent
+	void	<object> <bool> 
+
+1406	cinematic_zone_activate
+	void	<int> 
+
+1407	cinematic_zone_deactivate
+	void	<int> 
+
+1411	unit_limit_lipsync_to_mouth_only
+	void	<unit> <bool> 
+
+1418	prepare_to_switch_to_zone_set
+	void	<unknown (27)> 
+
+1419	cinematic_zone_activate_for_debugging
+	void	<int> 
+
+1420	unit_play_random_ping
+	void	<unit> 
+
+1421	player_control_fade_out_all_input
+	void	<real> 
+
+1422	player_control_fade_in_all_input
+	void	<real> 
+
+1423	player_control_lock_gaze
+	void	<unit> <unknown (29)> <real> 
+
+1424	player_control_unlock_gaze
+	void	<unit> 
+
+1425	player_control_scale_all_input
+	void	<real> <real> 
+
+1432	object_set_custom_animation_speed
+	void	<object> <real> 
+
+1433	scenery_animation_start_at_frame_loop
+	void	<unknown (70)> <unknown (37)> <unknown (11)> <short> 
+
+1435	chud_show_arbiter_ai_navpoint
+	void	<bool> 
+
+1439	biped_force_ground_fitting_on
+	void	<unit> <bool> 
+
+1440	cinematic_set_chud_objective
+	void	<unknown (16)> 
+
+1441	terminal_is_being_read
+	bool	
+
+1442	terminal_was_accessed
+	bool	<object> 
+
+1443	terminal_was_completed
+	bool	<object> 
+
+1447	game_award_level_complete_achievements
+	void	
+
+1449	game_safe_to_respawn
+	void	<bool> 
+
+1450	cortana_effect_kill
+	void	
+
+1453	cinematic_scripting_destroy_cortana_effect_cinematic
+	void	
+
+1454	ai_migrate_infanty
+	void	<ai> <ai> 
+
+1455	render_cinematic_motion_blur
+	void	<bool> 
+
+1456	ai_dont_do_avoidance
+	void	<ai> <bool> 
+
+1457	cinematic_scripting_clean_up
+	void	<int> 
+
+1458	ai_erase_inactive
+	void	<ai> <short> 
+
+1459	stop_bink_movie
+	void	
+
+1460	play_credits_unskippable
+	void	
+
