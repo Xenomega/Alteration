@@ -1,0 +1,13 @@
+<plugin class="cddf" author="-DeToX-" version="0.1" headersize="40">
+  <revision author="-DeToX-" version="0.1">Created layout of plugin</revision>
+  <undefined name="Unknown" offset="0" visible="false" />
+  <undefined name="Unknown" offset="4" visible="false" />
+  <undefined name="Unknown" offset="8" visible="false" />
+  <undefined name="Unknown" offset="12" visible="false" />
+  <undefined name="Unknown" offset="16" visible="false" />
+  <undefined name="Unknown" offset="20" visible="false" />
+  <undefined name="Unknown" offset="24" visible="false" />
+  <undefined name="Unknown" offset="28" visible="false" />
+  <undefined name="Unknown" offset="32" visible="false" />
+  <undefined name="Unknown" offset="36" visible="false" />
+</plugin>

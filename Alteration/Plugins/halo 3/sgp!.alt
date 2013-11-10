@@ -1,0 +1,13 @@
+<plugin class="sgp!" author="-DeToX-" version="0.1" headersize="72">
+  <revision author="-DeToX-" version="0.1">Created layout of plugin</revision>
+  <tag name="Unknown" offset="0" visible="False" />
+  <id name="Unknown" offset="12" visible="false" />
+  <tag name="Unknown" offset="16" visible="False" />
+  <id name="Unknown" offset="28" visible="false" />
+  <undefined name="Unknown" offset="32" visible="false" />
+  <undefined name="Unknown" offset="36" visible="false" />
+  <tag name="Unknown" offset="40" visible="False" />
+  <id name="Unknown" offset="52" visible="false" />
+  <tag name="Unknown" offset="56" visible="False" />
+  <id name="Unknown" offset="68" visible="false" />
+</plugin>

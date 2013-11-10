@@ -1,0 +1,97 @@
+<plugin class="sefc" author="-DeToX-" version="0.1" headersize="236">
+  <revision author="-DeToX-" version="0.1">Created layout of plugin</revision>
+  <revision author="Veegie" version="0.2">Fixed some shit</revision>
+  <struct name="Effects" offset="0" visible="false" size="132" label="">
+    <stringid name="Name" offset="0" visible="false" />
+    <undefined name="Unknown" offset="4" visible="false" />
+    <float name="Radius" offset="8" visible="false" />
+    <undefined name="Unknown" offset="12" visible="false" />
+    <undefined name="Unknown" offset="16" visible="false" />
+    <undefined name="Unknown" offset="20" visible="false" />
+    <undefined name="Unknown" offset="24" visible="false" />
+    <undefined name="Unknown" offset="28" visible="false" />
+    <float name="Duration" offset="32" visible="True" />
+    <undefined name="Unknown" offset="36" visible="false" />
+    <undefined name="Unknown" offset="40" visible="false" />
+    <undefined name="Unknown" offset="44" visible="false" />
+    <undefined name="Unknown" offset="48" visible="false" />
+    <undefined name="Unknown" offset="52" visible="false" />
+    <undefined name="Unknown" offset="56" visible="false" />
+    <undefined name="Unknown" offset="60" visible="false" />
+    <undefined name="Unknown" offset="64" visible="false" />
+    <float name="Red(?)" offset="68" visible="True" />
+    <float name="Green(?)" offset="72" visible="True" />
+    <float name="Intensity" offset="76" visible="false" />
+    <undefined name="Red(?)" offset="80" visible="false" />
+    <undefined name="Green(?)" offset="84" visible="false" />
+    <float name="Saturation" offset="88" visible="True" />
+    <float name="Thermal Feather" offset="92" visible="True" />
+    <float name="Brightness" offset="96" visible="True" />
+    <float name="Darkness" offset="100" visible="True" />
+    <float name="Feather Radius" offset="104" visible="True" />
+    <float name="Colour: R" offset="108"  visible="True" />
+    <float name="Colour: G" offset="112"  visible="True" />
+    <float name="Colour: B" offset="116" visible="True" />
+    <float name="Inversion Saturation: R" offset="120" visible="True" />
+    <float name="Inversion Saturation: G" offset="124" visible="True" />
+    <float name="Inversion Saturation: B" offset="128" visible="True" />
+  </struct>
+  <undefined name="Unknown" offset="8" visible="false" />
+  <undefined name="Unknown" offset="0" visible="false" />
+  <undefined name="Unknown" offset="4" visible="false" />
+  <undefined name="Unknown" offset="8" visible="false" />
+  <undefined name="Unknown" offset="12" visible="false" />
+  <undefined name="Unknown" offset="16" visible="false" />
+  <undefined name="Unknown" offset="20" visible="false" />
+  <undefined name="Unknown" offset="24" visible="false" />
+  <undefined name="Unknown" offset="28" visible="false" />
+  <undefined name="Unknown" offset="32" visible="false" />
+  <undefined name="Unknown" offset="36" visible="false" />
+  <undefined name="Unknown" offset="40" visible="false" />
+  <undefined name="Unknown" offset="44" visible="false" />
+  <undefined name="Unknown" offset="48" visible="false" />
+  <undefined name="Unknown" offset="52" visible="false" />
+  <undefined name="Unknown" offset="56" visible="false" />
+  <undefined name="Unknown" offset="60" visible="false" />
+  <undefined name="Unknown" offset="64" visible="false" />
+  <undefined name="Unknown" offset="68" visible="false" />
+  <undefined name="Unknown" offset="72" visible="false" />
+  <undefined name="Unknown" offset="76" visible="false" />
+  <undefined name="Unknown" offset="80" visible="false" />
+  <undefined name="Unknown" offset="84" visible="false" />
+  <undefined name="Unknown" offset="88" visible="false" />
+  <undefined name="Unknown" offset="92" visible="false" />
+  <undefined name="Unknown" offset="96" visible="false" />
+  <undefined name="Unknown" offset="100" visible="false" />
+  <undefined name="Unknown" offset="104" visible="false" />
+  <undefined name="Unknown" offset="108" visible="false" />
+  <undefined name="Unknown" offset="112" visible="false" />
+  <undefined name="Unknown" offset="116" visible="false" />
+  <undefined name="Unknown" offset="120" visible="false" />
+  <undefined name="Unknown" offset="124" visible="false" />
+  <undefined name="Unknown" offset="128" visible="false" />
+  <undefined name="Unknown" offset="132" visible="false" />
+  <undefined name="Unknown" offset="136" visible="false" />
+  <undefined name="Unknown" offset="140" visible="false" />
+  <undefined name="Unknown" offset="144" visible="false" />
+  <undefined name="Unknown" offset="148" visible="false" />
+  <undefined name="Unknown" offset="152" visible="false" />
+  <undefined name="Unknown" offset="156" visible="false" />
+  <undefined name="Unknown" offset="160" visible="false" />
+  <tag name="Unknown" offset="164" visible="False" />
+  <id name="Unknown" offset="176" visible="false" />
+    <undefined name="Unknown" offset="180" visible="false" />
+    <undefined name="Unknown" offset="184" visible="false" />
+    <undefined name="Unknown" offset="188" visible="false" />
+    <undefined name="Unknown" offset="192" visible="false" />
+    <undefined name="Unknown" offset="196" visible="false" />
+    <undefined name="Unknown" offset="200" visible="false" />
+    <undefined name="Unknown" offset="204" visible="false" />
+    <undefined name="Unknown" offset="208" visible="false" />
+    <undefined name="Unknown" offset="212" visible="false" />
+    <undefined name="Unknown" offset="216" visible="false" />
+    <undefined name="Unknown" offset="220" visible="false" />
+    <undefined name="Unknown" offset="224" visible="false" />
+    <undefined name="Unknown" offset="228" visible="false" />
+    <undefined name="Unknown" offset="232" visible="false" />
+</plugin>

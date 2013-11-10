@@ -1,0 +1,44 @@
+<plugin class="rasg" author="-DeToX-" version="0.2" headersize="164">
+  <revision author="-DeToX-" version="0.1">Created layout of plugin</revision>
+  <revision author="-DeToX-" version="0.2">Mapped out most of the tag</revision>
+  <struct name="Default Presets" offset="0" visible="True" size="20" label="Preset Bitmap">
+    <undefined name="Unknown" offset="0" visible="false" />
+    <tag name="Preset Bitmap" offset="4" visible="True" />
+    <id name="Preset Bitmap" offset="16" visible="True" />
+  </struct>
+  <undefined name="Unknown" offset="8" visible="false" />
+  <struct name="Preset Rasterizers" offset="12" visible="True" size="16" label="Preset Rasterizer">
+    <tag name="Preset Rasterizer" offset="0" visible="True" />
+    <id name="Preset Rasterizer" offset="12" visible="True" />
+  </struct>
+  <undefined name="Unknown" offset="20" visible="false" />
+  <tag name="Vertex Shader Simple" offset="24" visible="True" />
+  <id name="Vertex Shader Simple" offset="36" visible="True" />
+  <tag name="Pixel Shader Simple" offset="40" visible="True" />
+  <id name="Pixel Shader Simple" offset="52" visible="True" />
+  <struct name="pixl/vrtx Shaders" offset="56" visible="True" size="32" label="Vertex Shader">
+    <tag name="Vertex Shader" offset="0" visible="True" />
+    <id name="Vertex Shader" offset="12" visible="True" />
+    <tag name="Pixel Shader" offset="16" visible="True" />
+    <id name="Pixel Shader" offset="28" visible="True" />
+  </struct>
+  <undefined name="Unknown" offset="64" visible="false" />
+  <undefined name="Unknown" offset="68" visible="false" />
+  <undefined name="Unknown" offset="72" visible="false" />
+  <undefined name="Unknown" offset="76" visible="false" />
+  <undefined name="Unknown" offset="80" visible="false" />
+  <undefined name="Unknown" offset="84" visible="false" />
+  <tag name="Active Camo Distortion" offset="88" visible="True" />
+  <id name="Active Camo Distortion" offset="100" visible="True" />
+  <tag name="Perf" offset="104" visible="True" />
+  <id name="Perf" offset="116" visible="True" />
+  <tag name="Shield Impact Settings" offset="120" visible="True" />
+  <id name="Shield Impact Settings" offset="132" visible="True" />
+  <undefined name="Unknown" offset="136" visible="false" />
+  <undefined name="Unknown" offset="140" visible="false" />
+  <undefined name="Unknown" offset="144" visible="false" />
+  <undefined name="Unknown" offset="148" visible="false" />
+  <undefined name="Unknown" offset="152" visible="false" />
+  <undefined name="Unknown" offset="156" visible="false" />
+  <undefined name="Unknown" offset="160" visible="false" />
+</plugin>

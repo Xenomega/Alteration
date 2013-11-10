@@ -1,0 +1,66 @@
+<plugin class="mdl3" author="-DeToX-" version="0.1" headersize="56">
+  <undefined name="Unknown" offset="0" visible="false" />
+  <undefined name="Unknown" offset="4" visible="false" />
+  <undefined name="Unknown" offset="8" visible="false" />
+  <undefined name="Unknown" offset="12" visible="false" />
+  <undefined name="Unknown" offset="16" visible="false" />
+  <undefined name="Unknown" offset="20" visible="false" />
+  <undefined name="Unknown" offset="24" visible="false" />
+  <tag name="Widget Animation?" offset="28" visible="True" />
+  <id name="Widget Animation?" offset="40" visible="True" />
+  <struct name="Unknown 0" offset="44" visible="false" size="60" label="">
+    <undefined name="Unknown" offset="0" visible="false" />
+    <undefined name="Unknown" offset="4" visible="false" />
+    <undefined name="Unknown" offset="8" visible="false" />
+    <undefined name="Unknown" offset="12" visible="false" />
+    <undefined name="Unknown" offset="16" visible="false" />
+    <undefined name="Unknown" offset="20" visible="false" />
+    <undefined name="Unknown" offset="24" visible="false" />
+    <undefined name="Unknown" offset="28" visible="false" />
+    <undefined name="Unknown" offset="32" visible="false" />
+    <struct name="Unknown 1" offset="36" visible="false" size="80" label="">
+      <undefined name="Unknown" offset="0" visible="false" />
+      <undefined name="Unknown" offset="4" visible="false" />
+      <undefined name="Unknown" offset="8" visible="false" />
+      <undefined name="Unknown" offset="12" visible="false" />
+      <undefined name="Unknown" offset="16" visible="false" />
+      <undefined name="Unknown" offset="20" visible="false" />
+      <undefined name="Unknown" offset="24" visible="false" />
+      <undefined name="Unknown" offset="28" visible="false" />
+      <undefined name="Unknown" offset="32" visible="false" />
+      <undefined name="Unknown" offset="36" visible="false" />
+      <undefined name="Unknown" offset="40" visible="false" />
+      <undefined name="Unknown" offset="44" visible="false" />
+      <undefined name="Unknown" offset="48" visible="false" />
+      <undefined name="Unknown" offset="52" visible="false" />
+      <undefined name="Unknown" offset="56" visible="false" />
+      <undefined name="Unknown" offset="60" visible="false" />
+      <undefined name="Unknown" offset="64" visible="false" />
+      <undefined name="Unknown" offset="68" visible="false" />
+      <undefined name="Unknown" offset="72" visible="false" />
+      <undefined name="Unknown" offset="76" visible="false" />
+    </struct>
+    <struct name="Unknown 2" offset="48" visible="false" size="80" label="">
+      <undefined name="Unknown" offset="0" visible="false" />
+      <undefined name="Unknown" offset="4" visible="false" />
+      <undefined name="Unknown" offset="8" visible="false" />
+      <undefined name="Unknown" offset="12" visible="false" />
+      <undefined name="Unknown" offset="16" visible="false" />
+      <undefined name="Unknown" offset="20" visible="false" />
+      <undefined name="Unknown" offset="24" visible="false" />
+      <undefined name="Unknown" offset="28" visible="false" />
+      <undefined name="Unknown" offset="32" visible="false" />
+      <undefined name="Unknown" offset="36" visible="false" />
+      <undefined name="Unknown" offset="40" visible="false" />
+      <undefined name="Unknown" offset="44" visible="false" />
+      <undefined name="Unknown" offset="48" visible="false" />
+      <undefined name="Unknown" offset="52" visible="false" />
+      <undefined name="Unknown" offset="56" visible="false" />
+      <undefined name="Unknown" offset="60" visible="false" />
+      <undefined name="Unknown" offset="64" visible="false" />
+      <undefined name="Unknown" offset="68" visible="false" />
+      <undefined name="Unknown" offset="72" visible="false" />
+      <undefined name="Unknown" offset="76" visible="false" />
+    </struct>
+  </struct>
+</plugin>

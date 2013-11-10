@@ -1,0 +1,22 @@
+<plugin class="wgan" author="-DeToX-" version="0.5" headersize="120">
+  <revision author="-DeToX-" version="0.1">Mapped plugin structure a new.</revision>
+  <revision author="DarkShallFall" version="0.5">Idents labled.</revision>
+  <undefined name="Unknown" offset="0" visible="False" />
+  <undefined name="Unknown" offset="4" visible="False" />
+  <tag name="Unknown" offset="8" visible="False" />
+  <id name="Unknown" offset="20" visible="False" />
+  <tag name="Widget Position" offset="24" visible="true" />
+  <id name="Widget Position" offset="36" visible="true" />
+  <tag name="Widget Rotation" offset="40" visible="true" />
+  <id name="Widget Rotation" offset="52" visible="true" />
+  <tag name="Widget Scale" offset="56" visible="true" />
+  <id name="Widget Scale" offset="68" visible="true" />
+  <tag name="Widget Party Up" offset="72" visible="true" />
+  <id name="Widget Party up" offset="84" visible="true" />
+  <tag name="Widget Progress" offset="88" visible="true" />
+  <id name="Widget Progress" offset="100" visible="true" />
+  <undefined name="Unknown" offset="104" visible="False" />
+  <undefined name="Unknown" offset="108" visible="False" />
+  <undefined name="Unknown" offset="112" visible="False" />
+  <undefined name="Unknown" offset="116" visible="False" />
+</plugin>

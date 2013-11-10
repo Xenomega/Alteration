@@ -1,0 +1,4 @@
+<plugin class="draw" author="-DeToX-" version="0.1" headersize="4">
+  <revision author="-DeToX-" version="0.1">Mapped plugin structure a new.</revision>
+  <undefined name="Unknown" offset="0" visible="False" />
+</plugin>

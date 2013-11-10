@@ -1,0 +1,14 @@
+<plugin class="wgtz" author="-DeToX-" version="1" headersize="60">
+  <revision author="-DeToX-" version="0.1">Mapped plugin structure a new.</revision>
+  <revision author="DarkShallFall" version="1">Easy enough...</revision>
+  <tag name="Widget Globals" offset="0" visible="true" />
+  <id name="Widget Globals" offset="12" visible="true" />
+  <tag name="Multiplayer Variant Settings" offset="16" visible="true" />
+  <id name="Multiplayer Variant Settings" offset="28" visible="true" />
+  <tag name="Matchmaking Hopper Unicode" offset="32" visible="true" />
+  <id name="Matchmaking Hopper Unicode" offset="44" visible="true" />
+  <struct name="Screen Menu Index" offset="48" visible="true" size="16">
+    <tag name="Screen Menu" offset="0" visible="true" />
+    <id name="Screen Menu" offset="12" visible="true" />
+  </struct>
+</plugin>

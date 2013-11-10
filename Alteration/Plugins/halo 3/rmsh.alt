@@ -1,0 +1,96 @@
+<plugin class="rmsh" author="-DeToX-" version="0.1" headersize="68">
+  <revision author="-DeToX-" version="0.1">Mapped plugin structure a new.</revision>
+  <tag name="Shader Base" offset="0" visible="true" />
+  <id name="Shader Base" offset="12" visible="true" />
+  <struct name="Unknown 0" offset="16" visible="False" size="5">
+    <undefined name="Unknown" offset="0" visible="False" />
+    <byte name="Unknown" offset="4" visible="False" />
+  </struct>
+  <struct name="Predicted Bitmaps" offset="28" visible="true" size="60">
+    <stringid name="Type" offset="0" visible="True" />
+    <undefined name="Unknown" offset="4" visible="False" />
+    <tag name="Predicted Bitmap" offset="8" visible="true" />
+    <id name="Predicted Bitmap" offset="20" visible="true" />
+    <undefined name="Unknown" offset="24" visible="False" />
+    <undefined name="Unknown" offset="28" visible="False" />
+    <undefined name="Unknown" offset="32" visible="False" />
+    <undefined name="Unknown" offset="36" visible="False" />
+    <undefined name="Unknown" offset="40" visible="False" />
+    <undefined name="Unknown" offset="44" visible="False" />
+    <struct name="Unknown 2" offset="48" visible="False" size="68">
+      <undefined name="Unknown" offset="0" visible="False" />
+      <undefined name="Unknown" offset="4" visible="False" />
+      <undefined name="Unknown" offset="8" visible="False" />
+      <undefined name="Unknown" offset="12" visible="False" />
+      <undefined name="Unknown" offset="16" visible="False" />
+      <undefined name="Unknown" offset="20" visible="False" />
+      <undefined name="Unknown" offset="24" visible="False" />
+      <undefined name="Unknown" offset="28" visible="False" />
+      <undefined name="Unknown" offset="32" visible="False" />
+      <undefined name="Unknown" offset="36" visible="False" />
+      <undefined name="Unknown" offset="40" visible="False" />
+      <undefined name="Unknown" offset="44" visible="False" />
+      <undefined name="Unknown" offset="48" visible="False" />
+      <undefined name="Unknown" offset="52" visible="False" />
+      <undefined name="Unknown" offset="56" visible="False" />
+      <undefined name="Unknown" offset="60" visible="False" />
+      <undefined name="Unknown" offset="64" visible="False" />
+    </struct>
+  </struct>
+  <struct name="Shader Properties" offset="40" visible="true" size="132">
+    <tag name="Template" offset="0" visible="true" />
+    <id name="Template" offset="12" visible="true" />
+    <struct name="Shader Maps" offset="16" visible="true" size="24">
+      <tag name="Bitmap | Cubemap | Detailmap | Other" offset="0" visible="true" />
+      <id name="Bitmap | Cubemap | Detailmap | Other" offset="12" visible="true" />
+      <enum32 name="unknown" offset="16" visible="true">
+        <option name="Deffuse | Detail" value="0" />
+        <option name="Deffuse | Bump | Illum" value="4" />
+        <option name="Cube Map" value="4352" />
+      </enum32>
+      <short name="Tiling | Falloff Index" offset="20" visible="False" />
+    </struct>
+    <struct name="Tiling | Falloff Colors" offset="28" visible="true" size="16">
+      <float name="U Tiling | Red" offset="0" visible="True" />
+      <float name="V tiling | Green" offset="4" visible="True" />
+      <float name="Blue" offset="8" visible="True" />
+      <float name="Intensity?" offset="12" visible="true" />
+    </struct>
+    <undefined name="Unknown" offset="40" visible="False" />
+    <undefined name="Unknown" offset="44" visible="False" />
+    <undefined name="Unknown" offset="48" visible="False" />
+    <undefined name="Unknown" offset="52" visible="False" />
+    <struct name="Unknown 5" offset="56" visible="False" size="2">
+      <short name="Unknown" offset="0" visible="False" />
+    </struct>
+    <struct name="Unknown 6" offset="68" visible="False" size="6">
+      <undefined name="Unknown" offset="0" visible="False" />
+      <short name="Unknown" offset="4" visible="False" />
+    </struct>
+    <struct name="Unknown 7" offset="80" visible="False" size="4">
+      <undefined name="Unknown" offset="0" visible="False" />
+    </struct>
+    <struct name="Unknown 8" offset="92" visible="False" size="36">
+      <undefined name="Unknown" offset="0" visible="False" />
+      <undefined name="Unknown" offset="4" visible="False" />
+      <undefined name="Unknown" offset="8" visible="False" />
+      <undefined name="Unknown" offset="12" visible="False" />
+      <undefined name="Unknown" offset="16" visible="False" />
+      <undefined name="Unknown" offset="20" visible="False" />
+      <undefined name="Unknown" offset="24" visible="False" />
+      <undefined name="Unknown" offset="28" visible="False" />
+      <undefined name="Unknown" offset="32" visible="False" />
+    </struct>
+    <undefined name="Unknown" offset="104" visible="False" />
+    <undefined name="Unknown" offset="108" visible="False" />
+    <undefined name="Unknown" offset="112" visible="False" />
+    <undefined name="Unknown" offset="116" visible="False" />
+    <undefined name="Unknown" offset="120" visible="False" />
+    <undefined name="Unknown" offset="124" visible="False" />
+    <undefined name="Unknown" offset="128" visible="False" />
+  </struct>
+  <undefined name="Unknown" offset="52" visible="False" />
+  <undefined name="Unknown" offset="56" visible="False" />
+  <undefined name="Unknown" offset="60" visible="False" />
+  <undefined name="Unknown" offset="64" visible="False" />
+</plugin>

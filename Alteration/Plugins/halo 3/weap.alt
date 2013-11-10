@@ -1,0 +1,576 @@
+<plugin class="weap" author="-DeToX-" version="0.1" headersize="1280">
+  <revision author="-DeToX-" version="0.1">Created layout of plugin</revision>
+  <revision author="Veegie" version="0.2">Mapped out reflextives and idents. Fixed titles.</revision>
+  <revision author="DarkShallFall" version="0.3">Mapped out some values in barrel, new triggers, etc.</revision>
+  <revision author="DarkShallFall" version="0.4">Mapped out and labeled all of the "Firing Effect" reflexive.</revision>
+    <bitmask16 name="Flags" offset="0" visible="True">
+         <option name="does not cast shadow" value="0" />
+         <option name="search cardinal direction lightmaps" value="1" />
+         <option name="unused" value="2" />
+         <option name="not a pathfinding obstacle" value="3" />
+         <option name="extension of parent" value="4" />
+         <option name="does not cause collision damage" value="5" />
+         <option name="early mover" value="6" />
+         <option name="early mover localized physics" value="7" />
+         <option name="use static massive lightmap sample" value="8" />
+         <option name="object scales attachments" value="9" />
+         <option name="inherits player's appearance" value="10" />
+         <option name="dead bipeds can't localize" value="11" />
+         <option name="attach to clusters by dynamic sphere" value="12" />
+         <option name="effects created by this object do not blah" value="13" />
+    </bitmask16>
+  <unused offset="2" size="2" />
+  <float name="Bounding Radius (world units)" offset="4" visible="True" />
+  <float name="Bounding Offset X" offset="8" visible="True" />
+  <float name="Bounding Offset Y" offset="12" visible="True" />
+  <float name="Bounding Offset Z" offset="16" visible="True" />
+  <float name="Acceleration Scale" offset="20" visible="True" />
+  <float name="Lightmap Shadow type(enum)" offset="24" visible="True" />
+  <float name="Sweetener Size(enum)" offset="28" visible="True" />
+  <float name="Dynamic Light sphere radius" offset="32" visible="True" />
+  <float name="Dynamic Light sphere Offset X" offset="36" visible="True" />
+  <float name="Dynamic Light sphere Offset Y" offset="40" visible="True" />
+  <float name="Dynamic Light sphere Offset Z" offset="44" visible="True" />
+  <stringid name="Default Model" offset="48" visible="True" />
+  <tag name="Object Properties" offset="52" visible="True" />
+  <id name="Object Properties" offset="64" visible="True" />
+  <unused offset="68" size="56" />
+  <tag name="Material Effect" offset="128" visible="True" />
+  <id name="Material Effect" offset="140" visible="True" />
+  <tag name="Unknown" offset="144" visible="False" />
+  <id name="Unknown" offset="156" visible="false" />
+  <struct name="Unknown0" offset="160" visible="false" size="16" label="">
+    <undefined name="Unknown" offset="0" visible="false" />
+    <undefined name="Unknown" offset="4" visible="false" />
+    <undefined name="Unknown" offset="8" visible="false" />
+    <undefined name="Unknown" offset="12" visible="false" />
+  </struct>
+  <undefined name="Unknown" offset="168" visible="false" />
+  <struct name="Fire Effect Bitmaps" offset="172" visible="false" size="44" label="">
+    <undefined name="Unknown" offset="0" visible="false" />
+    <undefined name="Unknown" offset="4" visible="false" />
+    <undefined name="Unknown" offset="8" visible="false" />
+    <undefined name="Unknown" offset="12" visible="false" />
+    <undefined name="Unknown" offset="16" visible="false" />
+    <undefined name="Unknown" offset="20" visible="false" />
+    <undefined name="Unknown" offset="24" visible="false" />
+    <undefined name="Unknown" offset="28" visible="false" />
+    <undefined name="Unknown" offset="32" visible="false" />
+    <undefined name="Unknown" offset="36" visible="false" />
+    <undefined name="Unknown" offset="40" visible="false" />
+  </struct>
+  <undefined name="Unknown" offset="180" visible="false" />
+  <undefined name="Unknown" offset="184" visible="false" />
+  <struct name="Attachments" offset="188" visible="True" size="32" label="">
+    <tag name="Attachment" offset="0" visible="True" />
+    <id name="Attachment" offset="12" visible="True" />
+    <undefined name="Unknown" offset="16" visible="false" />
+    <undefined name="Unknown" offset="20" visible="false" />
+    <undefined name="Unknown" offset="24" visible="false" />
+    <undefined name="Unknown" offset="28" visible="false" />
+  </struct>
+  <undefined name="Unknown" offset="196" visible="false" />
+  <struct name="Unknown3" offset="200" visible="false" size="16" label="">
+    <tag name="Unknown" offset="0" visible="False" />
+    <id name="Unknown" offset="12" visible="false" />
+  </struct>
+  <undefined name="Unknown" offset="208" visible="false" />
+  <struct name="Unknown4" offset="212" visible="false" size="24" label="">
+    <undefined name="Unknown" offset="0" visible="false" />
+    <undefined name="Unknown" offset="4" visible="false" />
+    <undefined name="Unknown" offset="8" visible="false" />
+    <undefined name="Unknown" offset="12" visible="false" />
+    <undefined name="Unknown" offset="16" visible="false" />
+    <undefined name="Unknown" offset="20" visible="false" />
+  </struct>
+  <undefined name="Unknown" offset="220" visible="false" />
+  <undefined name="Unknown" offset="224" visible="false" />
+  <undefined name="Unknown" offset="228" visible="false" />
+  <undefined name="Unknown" offset="232" visible="false" />
+  <struct name="Predicted Bitmaps" offset="236" visible="false" size="196" label="">
+    <undefined name="Unknown" offset="0" visible="false" />
+    <undefined name="Unknown" offset="4" visible="false" />
+    <undefined name="Unknown" offset="8" visible="false" />
+    <undefined name="Unknown" offset="12" visible="false" />
+    <undefined name="Unknown" offset="16" visible="false" />
+    <undefined name="Unknown" offset="20" visible="false" />
+    <undefined name="Unknown" offset="24" visible="false" />
+    <undefined name="Unknown" offset="28" visible="false" />
+    <undefined name="Unknown" offset="32" visible="false" />
+    <undefined name="Unknown" offset="36" visible="false" />
+    <undefined name="Unknown" offset="40" visible="false" />
+    <undefined name="Unknown" offset="44" visible="false" />
+    <undefined name="Unknown" offset="48" visible="false" />
+    <undefined name="Unknown" offset="52" visible="false" />
+    <undefined name="Unknown" offset="56" visible="false" />
+    <undefined name="Unknown" offset="60" visible="false" />
+    <undefined name="Unknown" offset="64" visible="false" />
+    <undefined name="Unknown" offset="68" visible="false" />
+    <undefined name="Unknown" offset="72" visible="false" />
+    <undefined name="Unknown" offset="76" visible="false" />
+    <undefined name="Unknown" offset="80" visible="false" />
+    <undefined name="Unknown" offset="84" visible="false" />
+    <undefined name="Unknown" offset="88" visible="false" />
+    <undefined name="Unknown" offset="92" visible="false" />
+    <undefined name="Unknown" offset="96" visible="false" />
+    <undefined name="Unknown" offset="100" visible="false" />
+    <undefined name="Unknown" offset="104" visible="false" />
+    <undefined name="Unknown" offset="108" visible="false" />
+    <undefined name="Unknown" offset="112" visible="false" />
+    <undefined name="Unknown" offset="116" visible="false" />
+    <undefined name="Unknown" offset="120" visible="false" />
+    <undefined name="Unknown" offset="124" visible="false" />
+    <undefined name="Unknown" offset="128" visible="false" />
+    <undefined name="Unknown" offset="132" visible="false" />
+    <undefined name="Unknown" offset="136" visible="false" />
+    <undefined name="Unknown" offset="140" visible="false" />
+    <undefined name="Unknown" offset="144" visible="false" />
+    <undefined name="Unknown" offset="148" visible="false" />
+    <undefined name="Unknown" offset="152" visible="false" />
+    <undefined name="Unknown" offset="156" visible="false" />
+    <undefined name="Unknown" offset="160" visible="false" />
+    <undefined name="Unknown" offset="164" visible="false" />
+    <undefined name="Unknown" offset="168" visible="false" />
+    <undefined name="Unknown" offset="172" visible="false" />
+    <undefined name="Unknown" offset="176" visible="false" />
+    <undefined name="Unknown" offset="180" visible="false" />
+    <undefined name="Unknown" offset="184" visible="false" />
+    <undefined name="Unknown" offset="188" visible="false" />
+    <undefined name="Unknown" offset="192" visible="false" />
+  </struct>
+  <int name="Unknown" offset="244" visible="true" />
+  <bitmask32 name="Flags" offset="248" visible="True">
+    <option name="Always Maintains Z Up" value="0" />
+    <option name="Destroyed by Explosions" value="1" />
+    <option name="Unaffected by Gravity" value="2" />
+  </bitmask32>
+  <short name="OLD message index" offset="252" visible="true" />
+  <short name="Sort Order" offset="254" visible="true" />
+  <int name="Unknown" offset="256" visible="true" />
+  <int name="Unknown" offset="260" visible="true" />
+  <int name="Unknown" offset="264" visible="true" />
+  <int name="Unknown" offset="268" visible="true" />
+  <int name="Unknown" offset="272" visible="true" />
+  <int name="Unknown" offset="276" visible="true" />
+  <int name="Unknown" offset="280" visible="true" />
+  <int name="Unknown" offset="284" visible="true" />
+  <int name="Unknown" offset="288" visible="true" />
+  <int name="Unknown" offset="292" visible="true" />
+  <int name="Unknown" offset="296" visible="true" />
+  <int name="Unknown" offset="300" visible="true" />
+  <int name="Unknown" offset="304" visible="true" />
+  <int name="Unknown" offset="308" visible="true" />
+  <int name="Unknown" offset="312" visible="true" />
+  <int name="Unknown" offset="316" visible="true" />
+  <int name="Unknown" offset="320" visible="true" />
+  <int name="Unknown" offset="324" visible="true" />
+  <int name="Unknown" offset="328" visible="true" />
+  <int name="Unknown" offset="332" visible="true" />
+  <int name="Unknown" offset="336" visible="true" />
+  <int name="Unknown" offset="340" visible="true" />
+  <int name="Unknown" offset="344" visible="true" />
+  <int name="Unknown" offset="348" visible="true" />
+  <int name="Unknown" offset="352" visible="true" />
+  <int name="Unknown" offset="356" visible="true" />
+  <int name="Unknown" offset="360" visible="true" />
+  <int name="Unknown" offset="364" visible="true" />
+  <int name="Unknown" offset="368" visible="true" />
+  <int name="Unknown" offset="372" visible="true" />
+  <int name="Unknown" offset="376" visible="true" />
+  <int name="Unknown" offset="380" visible="true" />
+  <int name="Unknown" offset="384" visible="true" />
+  <int name="Unknown" offset="388" visible="true" />
+  <int name="Unknown" offset="392" visible="true" />
+  <int name="Unknown" offset="396" visible="true" />
+  <int name="Unknown" offset="400" visible="true" />
+  <int name="Unknown" offset="404" visible="true" />
+  <int name="Unknown" offset="408" visible="true" />
+  <int name="Unknown" offset="412" visible="true" />
+  <int name="Unknown" offset="416" visible="true" />
+  <int name="Unknown" offset="420" visible="true" />
+  <int name="Unknown" offset="424" visible="true" />
+  <bitmask32 name="Flags" offset="428" visible="True">
+    <option name="vertical heat display" value="0" />
+   <option name="mutually exclusive triggers" value="1" />
+   <option name="attacks automatically on bump" value="2" />
+   <option name="must be readied" value="3" />
+   <option name="doesn't count towards maximum" value="4" />
+   <option name="aim assists only when zoomed" value="5" />
+   <option name="prevents grenade throwing" value="6" />
+   <option name="must be picked up" value="7" />
+   <option name="holds triggers when dropped" value="8" />
+   <option name="prevents melee attack" value="9" />
+   <option name="detonates when dropped" value="10" />
+   <option name="cannot fire at maximum age" value="11" />
+   <option name="secondary trigger overrides grenades" value="12" />
+   <option name="(OBSOLETE)does not depower" value="13" />
+   <option name="enables integrated night vision" value="14" />
+   <option name="AIs use weapon melee damage" value="15" />
+   <option name="forces no binoculars" value="16" />
+   <option name="loop fp firing animation" value="17" />
+   <option name="prevents sprinting" value="18" />
+   <option name="cannot fire while boosting" value="19" />
+   <option name="prevents driving" value="20" />
+   <option name="prevents gunning" value="21" />
+    <option name="can be dual wielded" value="22" />
+   <option name="can only be dual wielded" value="23" />
+   <option name="melee only" value="24" />
+   <option name="can't fire if parent dead" value="25" />
+   <option name="weapon ages with each kill" value="26" />
+   <option name="weapon uses old dual fire error" value="27" />
+   <option name="primary trigger melee attacks" value="28" />
+   <option name="cannot be used by player" value="29" />
+  </bitmask32>
+  <int name="Unknown" offset="432" visible="true" />
+  <int name="Unknown" offset="436" visible="true" />
+  <int name="Unknown" offset="440" visible="true" />
+  <float name="Turn On Time" offset="444" visible="true" />
+  <float name="Ready Time (seconds)" offset="448" visible="true" />
+  <int name="Unknown" offset="452" visible="true" />
+  <int name="Unknown" offset="456" visible="true" />
+  <int name="Unknown" offset="460" visible="true" />
+  <int name="Unknown" offset="464" visible="true" />
+  <int name="Unknown" offset="468" visible="true" />
+  <int name="Unknown" offset="472" visible="true" />
+  <int name="Unknown" offset="476" visible="true" />
+  <int name="Unknown" offset="480" visible="true" />
+  <float name="Heat Recovery Threshold (0,1)" offset="484" visible="true" />
+  <float name="Overheated Threshold (0,1)" offset="488" visible="true" />
+  <float name="Heat Detonation Threshold (0,1)" offset="492" visible="true" />
+  <float name="Heat Detonation Fraction (0,1)" offset="496" visible="true" />
+  <float name="Heat Loss Per Second (0,1)" offset="500" visible="true" />
+  <float name="Heat Illumination (0,1)" offset="504" visible="true" />
+  <float name="Overheated heat loss per second (0,1)" offset="508" visible="true" />
+  <tag name="Overheated" offset="512" visible="True" />
+  <id name="Overheated" offset="524" visible="True" />
+  <tag name="Unknown" offset="528" visible="False" />
+  <id name="Unknown" offset="540" visible="false" />
+  <undefined name="Unknown" offset="544" visible="false" />
+  <undefined name="Unknown" offset="548" visible="false" />
+  <undefined name="Unknown" offset="552" visible="false" />
+  <undefined name="Unknown" offset="556" visible="false" />
+  <undefined name="Unknown" offset="560" visible="false" />
+  <undefined name="Unknown" offset="564" visible="false" />
+  <undefined name="Unknown" offset="568" visible="false" />
+  <undefined name="Unknown" offset="572" visible="false" />
+  <undefined name="Unknown" offset="576" visible="false" />
+  <undefined name="Unknown" offset="580" visible="false" />
+  <undefined name="Unknown" offset="584" visible="false" />
+  <undefined name="Unknown" offset="588" visible="false" />
+  <undefined name="Unknown" offset="592" visible="false" />
+  <undefined name="Unknown" offset="596" visible="false" />
+  <undefined name="Unknown" offset="600" visible="false" />
+  <undefined name="Unknown" offset="604" visible="false" />
+  <float name="Damage Pyramid Angles (y)" offset="608" visible="True" />
+  <float name="Damage Pyramid Angles (p)" offset="612" visible="True" />
+  <float name="Damage Pyramid Depth" offset="616" visible="True" />
+  <tag name="Melee Damage" offset="620" visible="False" />
+  <id name="Melee Damage" offset="632" visible="false" />
+  <tag name="Trigger Melee" offset="636" visible="False" />
+  <id name="Trigger Melee" offset="648" visible="false" />
+  <tag name="Melee Damage" offset="652" visible="False" />
+  <id name="Melee Damage" offset="664" visible="false" />
+  <tag name="Trigger Melee" offset="668" visible="False" />
+  <id name="Trigger Melee" offset="680" visible="false" />
+  <tag name="Smash Melee Response" offset="684" visible="False" />
+  <id name="Smash Melee Response" offset="696" visible="false" />
+  <tag name="Trigger Melee" offset="700" visible="False" />
+  <id name="Trigger Melee" offset="712" visible="false" />
+  <unused offset="716" size="114" />
+  <short name="Zoom Levels" offset="830" visible="true" />
+  <float name="Min Zoom" offset="832" visible="true" />
+  <float name="Max Zoom" offset="836" visible="true" />
+  <float name="Auto Aim Angle (Radians)" offset="840" visible="true" />
+  <float name="Auto Aim Range" offset="844" visible="true" />
+  <unused offset="848" size="4" />
+  <float name="Magnetism Angle (Radians)" offset="852" visible="true" />
+  <float name="Magnetism Range" offset="856" visible="true" />
+  <float name="Deviation Angle (Radians)" offset="860" visible="true" />
+  <undefined name="Unknown" offset="864" visible="false" />
+  <undefined name="Unknown" offset="868" visible="false" />
+  <undefined name="Unknown" offset="872" visible="false" />
+  <undefined name="Unknown" offset="876" visible="false" />
+  <undefined name="Unknown" offset="880" visible="false" />
+  <undefined name="Unknown" offset="884" visible="false" />
+  <undefined name="Unknown" offset="888" visible="false" />
+  <undefined name="Unknown" offset="892" visible="false" />
+  <undefined name="Unknown" offset="896" visible="false" />
+  <undefined name="Unknown" offset="900" visible="false" />
+  <undefined name="Unknown" offset="904" visible="false" />
+  <undefined name="Unknown" offset="908" visible="false" />
+  <undefined name="Unknown" offset="912" visible="false" />
+  <undefined name="Unknown" offset="916" visible="false" />
+  <undefined name="Unknown" offset="920" visible="false" />
+  <undefined name="Unknown" offset="924" visible="false" />
+  <undefined name="Unknown" offset="928" visible="false" />
+  <undefined name="Unknown" offset="932" visible="false" />
+  <undefined name="Unknown" offset="936" visible="false" />
+  <undefined name="Unknown" offset="940" visible="false" />
+  <undefined name="Unknown" offset="944" visible="false" />
+  <undefined name="Unknown" offset="948" visible="false" />
+  <undefined name="Unknown" offset="952" visible="false" />
+  <undefined name="Unknown" offset="956" visible="false" />
+  <tag name="Unknown" offset="960" visible="False" />
+  <id name="Unknown" offset="972" visible="false" />
+  <tag name="Unknown" offset="976" visible="False" />
+  <id name="Unknown" offset="988" visible="false" />
+  <tag name="Unknown" offset="992" visible="False" />
+  <id name="Unknown" offset="1004" visible="false" />
+  <undefined name="Unknown" offset="1008" visible="false" />
+  <undefined name="Unknown" offset="1012" visible="false" />
+  <undefined name="Unknown" offset="1016" visible="false" />
+  <undefined name="Unknown" offset="1020" visible="false" />
+  <undefined name="Unknown" offset="1024" visible="false" />
+  <undefined name="Unknown" offset="1028" visible="false" />
+  <undefined name="Unknown" offset="1032" visible="false" />
+  <undefined name="Unknown" offset="1036" visible="false" />
+  <undefined name="Unknown" offset="1040" visible="false" />
+  <undefined name="Unknown" offset="1044" visible="false" />
+  <undefined name="Unknown" offset="1048" visible="false" />
+  <struct name="First Person" offset="1052" visible="True" size="32" label="">
+    <tag name="Model" offset="0" visible="True" />
+    <id name="Model" offset="12" visible="True" />
+    <tag name="Animation" offset="16" visible="True" />
+    <id name="Animation" offset="28" visible="True" />
+  </struct>
+  <undefined name="Unknown" offset="1060" visible="false" />
+  <tag name="New HUD Interface" offset="1064" visible="True" />
+  <id name="New HUD Interface" offset="1076" visible="True" />
+  <undefined name="Unknown" offset="1080" visible="false" />
+  <undefined name="Unknown" offset="1084" visible="false" />
+  <undefined name="Unknown" offset="1088" visible="false" />
+  <struct name="Magazines" offset="1092" visible="false" size="111" label="">
+    <undefined name="Unknown" offset="0" visible="false" />
+    <short name="rounds recharged" offset="4" visible="true" />
+    <short name="rounds total initial" offset="6" visible="true" />
+    <short name="rounds total maximum" offset="8" visible="true" />
+    <short name="rounds reloaded" offset="10" visible="true" />
+    <short name="Max Rounds Held" offset="12" visible="true" />
+    <short name="Unknown" offset="14" visible="true" />
+    <undefined name="Reload Time In Seconds" offset="16" visible="True" />
+    <undefined name="Unknown" offset="20" visible="false" />
+    <undefined name="Unknown" offset="24" visible="false" />
+    <undefined name="Unknown" offset="28" visible="false" />
+    <undefined name="Unknown" offset="32" visible="false" />
+    <undefined name="Unknown" offset="36" visible="false" />
+    <undefined name="Unknown" offset="40" visible="false" />
+    <undefined name="Unknown" offset="44" visible="false" />
+    <undefined name="Unknown" offset="48" visible="false" />
+    <tag name="Unknown" offset="52" visible="False" />
+    <id name="Unknown" offset="64" visible="false" />
+    <undefined name="Unknown" offset="68" visible="false" />
+    <undefined name="Unknown" offset="72" visible="false" />
+    <undefined name="Unknown" offset="76" visible="false" />
+    <undefined name="Unknown" offset="80" visible="false" />
+    <undefined name="Unknown" offset="84" visible="false" />
+    <undefined name="Unknown" offset="88" visible="false" />
+    <undefined name="Unknown" offset="92" visible="false" />
+    <undefined name="Unknown" offset="96" visible="false" />
+    <undefined name="Unknown" offset="100" visible="false" />
+    <undefined name="Unknown" offset="104" visible="false" />
+    <short name="Unknown" offset="108" visible="false" />
+    <byte name="Unknown" offset="110" visible="false" />
+  </struct>
+  <undefined name="Unknown" offset="1100" visible="false" />
+  <struct name="New Triggers" offset="1104" visible="true" size="125" label="">
+    <bitmask32 name="Flags" offset="0" visible="True">
+      <option name="Autofire Single Action Only" value="0" />
+    </bitmask32>
+    <enum16 name="Button Used" offset="4" visible="True">
+      <option name="Right Trigger" value="0" />
+      <option name="Left Trigger" value="1" />
+      <option name="Melee Attack (SP Only)" value="2" />
+      <option name="Automated Fire (Unassigned)" value="3" />
+    </enum16>
+    <enum16 name="Behavior" offset="6" visible="True">
+      <option name="Spew" value="0" />
+      <option name="Latch" value="1" />
+      <option name="1-Latch 2-Autofire" value="2" />
+      <option name="Charge" value="3" />
+      <option name="1-Latch 2-Zoom" value="4" />
+      <option name="1-Latch 2-Lockon" value="5" />
+    </enum16>
+    <short name="Primary Barrel" offset="8" visible="True" />
+    <short name="Secondary Barrel" offset="10" visible="True" />
+    <enum32 name="Prediction" offset="12" visible="True">
+      <option name="None" value="0" />
+      <option name="Spew" value="1" />
+      <option name="Charge" value="2" />
+    </enum32>
+    <float name="Autofire Time" offset="16" visible="True" />
+    <float name="Autofire Throw" offset="20" visible="True" />
+    <enum32 name="Secondary Action" offset="24" visible="True">
+      <option name="Fire" value="0" />
+      <option name="Charge" value="1" />
+      <option name="Track" value="2" />
+      <option name="Fire Other" value="3" />
+    </enum32>
+    <float name="Charging Time" offset="28" visible="True" />
+    <float name="Charged Time" offset="32" visible="True" />
+    <enum32 name="Overcharged Action" offset="36" visible="True">
+      <option name="None" value="0" />
+      <option name="Explode" value="1" />
+      <option name="Discharge" value="2" />
+    </enum32>
+    <float name="Charged Illumination" offset="40" visible="True" />
+    <float name="Spew Time" offset="44" visible="True" />
+    <undefined name="Unknown" offset="48" visible="false" />
+    <undefined name="Unknown" offset="52" visible="false" />
+    <undefined name="Unknown" offset="56" visible="false" />
+    <undefined name="Unknown" offset="60" visible="false" />
+    <undefined name="Unknown" offset="64" visible="false" />
+    <undefined name="Unknown" offset="68" visible="false" />
+    <undefined name="Unknown" offset="72" visible="false" />
+    <undefined name="Unknown" offset="76" visible="false" />
+    <undefined name="Unknown" offset="80" visible="false" />
+    <undefined name="Unknown" offset="84" visible="false" />
+    <undefined name="Unknown" offset="88" visible="false" />
+    <undefined name="Unknown" offset="92" visible="false" />
+    <undefined name="Unknown" offset="96" visible="false" />
+    <undefined name="Unknown" offset="100" visible="false" />
+    <undefined name="Unknown" offset="104" visible="false" />
+    <undefined name="Unknown" offset="108" visible="false" />
+    <undefined name="Unknown" offset="112" visible="false" />
+    <undefined name="Unknown" offset="116" visible="false" />
+    <undefined name="Unknown" offset="120" visible="false" />
+    <byte name="Unknown" offset="124" visible="false" />
+  </struct>
+  <undefined name="Unknown" offset="1112" visible="false" />
+  <struct name="Barrels" offset="1116" visible="True" size="308" label="">
+    <bitmask32 name="Flags" offset="0" visible="True">
+      <option name="Tracks Fired Projectile" value="0" />
+      <option name="Random Firing Effects" value="1" />
+      <option name="Can Fire With Partial Ammo" value="2" />
+      <option name="Projectiles use Weapon Origin" value="3" />
+      <option name="Ejects During Chamber" value="4" />
+      <option name="Use Error When Unzoomed" value="5" />
+      <option name="Projectile Vector Cannot Be Adjusted" value="6" />
+      <option name="Projectiles Have Identical Error" value="7" />
+      <option name="Projectiles Fire Parallel" value="8" />
+      <option name="Cant Fire When Others Firing" value="9" />
+      <option name="Cant Fire When Others Recovering" value="10" />
+      <option name="Don't Clear Fire Bit After Recovering" value="11" />
+      <option name="Stagger Fire Across Multiple Markers" value="12" />
+      <option name="Fires Locked Projectiles" value="13" />
+    </bitmask32>
+    <float name="Rounds per Second (min)" offset="4" visible="True" />
+    <float name="Rounds per Second (max)" offset="8" visible="True" />
+    <float name="Acceleration Time (sec)" offset="12" visible="True" />
+    <float name="Deceleration Time (sec)" offset="16" visible="True" />
+    <float name="Barrel Spin Scale" offset="20" visible="True" />
+    <float name="Blurred Rate Of Fire" offset="24" visible="True" />
+    <short name="Shots per Fire (min)" offset="28" visible="true" />
+    <short name="Shots per Fire (max)" offset="30" visible="true" />
+    <float name="Fire Recovery Time (seconds)" offset="32" visible="true" />
+    <float name="Soft Recovery Fraction" offset="36" visible="true" />
+    <short name="Magazine" offset="40" visible="True" />
+    <short name="Rounds per Shot" offset="42" visible="true" />
+    <short name="Minimum Rounds Loaded" offset="44" visible="True" />
+    <short name="Rounds Between Tracers" offset="46" visible="True" />
+    <float name="Optional Barrel Marker Name(StringID)" offset="48" visible="false" />
+    <enum16 name="Prediction Type" offset="52" visible="True">
+      <option name="None" value="0" />
+      <option name="Continuous" value="1" />
+      <option name="Instant" value="2" />
+    </enum16>
+    <enum16 name="Firing Noise" offset="54" visible="True">
+      <option name="Silent" value="0" />
+      <option name="Medium" value="1" />
+      <option name="Loud" value="2" />
+      <option name="Shout" value="3" />
+      <option name="Quiet" value="4" />
+    </enum16>
+   <float name="Error Acceleration Time Sec" offset="56" visible="True" />
+    <float name="Error Deceleration Time Sec" offset="60" visible="True" />
+    <float name="Damage Error Lower" offset="64" visible="True" />
+    <float name="Damage Error Upper" offset="68" visible="True" />
+    <float name="Dual Weapon Error Acceleration Time Sec" offset="72" visible="True" />
+    <float name="Dual Weapon Error Deceleration Time Sec" offset="76" visible="True" />
+    <undefined name="Unknown" offset="80" visible="false" />
+    <undefined name="Unknown" offset="84" visible="false" />
+    <undefined name="Unknown" offset="88" visible="false" />
+    <undefined name="Unknown" offset="92" visible="false" />
+    <undefined name="Unknown" offset="96" visible="false" />
+    <undefined name="Unknown" offset="100" visible="false" />
+    <undefined name="Unknown" offset="104" visible="false" />
+    <undefined name="Unknown" offset="108" visible="false" />
+    <undefined name="Unknown" offset="112" visible="false" />
+    <enum16 name="Distribution Function" offset="116" visible="True">
+      <option name="Point" value="0" />
+      <option name="Fan" value="1" />
+    </enum16>
+    <short name="Projectiles per Shot" offset="118" visible="True" />
+    <float name="Distributation Angle (radians)" offset="124" visible="True" />
+    <float name="Spawn Offset (x)" offset="128" visible="True" />
+    <float name="Spawn Offset (y)" offset="132" visible="True" />
+    <float name="Spawn Offset (z)" offset="136" visible="True" />
+    <unused offset="140" size="8" />
+    <tag name="Projectile" offset="152" visible="True" />
+    <id name="Projectile" offset="164" visible="True" />
+    <unused offset="168" size="52" />
+    <float name="Ejection Port Recovery Time" offset="220" visible="True" />
+    <float name="Illumination Recovery Time" offset="224" visible="True" />
+    <float name="Heat Generated per Round" offset="228" visible="True" />
+    <float name="Age Generated per Round" offset="232" visible="True" />
+    <undefined name="Unknown" offset="236" visible="false" />
+    <undefined name="Unknown" offset="240" visible="false" />
+    <undefined name="Unknown" offset="244" visible="false" />
+    <undefined name="Unknown" offset="248" visible="false" />
+    <undefined name="Unknown" offset="252" visible="false" />
+    <undefined name="Unknown" offset="256" visible="false" />
+    <undefined name="Unknown" offset="260" visible="false" />
+    <undefined name="Unknown" offset="264" visible="false" />
+    <undefined name="Unknown" offset="268" visible="false" />
+    <undefined name="Unknown" offset="272" visible="false" />
+    <undefined name="Unknown" offset="276" visible="false" />
+    <undefined name="Unknown" offset="280" visible="false" />
+    <undefined name="Unknown" offset="284" visible="false" />
+    <undefined name="Unknown" offset="288" visible="false" />
+    <undefined name="Unknown" offset="292" visible="false" />
+    <struct name="Firing Effects" offset="296" visible="True" size="52" label="">
+      <short name="Shot Count Lower Bound" offset="0" visible="True" />
+      <short name="Shot Count Upper Bound" offset="2" visible="True" />
+      <tag name="Firing Effect" offset="4" visible="True" />
+      <id name="Firing Effect" offset="16" visible="True" />
+      <tag name="Misfire Effect?" offset="20" visible="True" />
+      <id name="Misfire Effect?" offset="32" visible="True" />
+      <tag name="Empty Effect" offset="36" visible="True" />
+      <id name="Empty Effect" offset="48" visible="True" />
+    </struct>
+  </struct>
+  <undefined name="Unknown" offset="1124" visible="false" />
+  <undefined name="Unknown" offset="1128" visible="false" />
+  <undefined name="Unknown" offset="1132" visible="false" />
+  <undefined name="Unknown" offset="1136" visible="false" />
+  <undefined name="Unknown" offset="1140" visible="false" />
+  <undefined name="Unknown" offset="1144" visible="false" />
+  <undefined name="Unknown" offset="1148" visible="false" />
+  <undefined name="Unknown" offset="1152" visible="false" />
+  <undefined name="Unknown" offset="1156" visible="false" />
+  <undefined name="Unknown" offset="1160" visible="false" />
+  <undefined name="Unknown" offset="1164" visible="false" />
+  <undefined name="Unknown" offset="1168" visible="false" />
+  <undefined name="Unknown" offset="1172" visible="false" />
+  <undefined name="Unknown" offset="1176" visible="false" />
+  <undefined name="Unknown" offset="1180" visible="false" />
+  <undefined name="Unknown" offset="1184" visible="false" />
+  <undefined name="Unknown" offset="1188" visible="false" />
+  <undefined name="Unknown" offset="1192" visible="false" />
+  <undefined name="Unknown" offset="1196" visible="false" />
+  <tag name="Unknown" offset="1200" visible="False" />
+  <id name="Unknown" offset="1212" visible="false" />
+  <tag name="Unknown" offset="1216" visible="False" />
+  <id name="Unknown" offset="1228" visible="false" />
+  <undefined name="Unknown" offset="1232" visible="false" />
+  <undefined name="Unknown" offset="1236" visible="false" />
+  <float name="FP Position (x)" offset="1240" visible="True" />
+  <float name="FP Position (y)" offset="1244" visible="True" />
+  <float name="FP Position (z)" offset="1248" visible="True" />
+  <undefined name="Unknown" offset="1252" visible="false" />
+  <undefined name="Unknown" offset="1256" visible="false" />
+  <undefined name="Unknown" offset="1260" visible="false" />
+  <undefined name="Unknown" offset="1264" visible="false" />
+  <float name="Zoom FoV Transition Time (DpS^2)" offset="1268" visible="True" />
+  <undefined name="Unknown" offset="1272" visible="false" />
+  <undefined name="Unknown" offset="1276" visible="false" />
+</plugin>

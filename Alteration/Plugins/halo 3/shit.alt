@@ -1,0 +1,40 @@
+<plugin class="shit" author="-DeToX-" version="0.1" headersize="164">
+  <revision author="-DeToX-" version="0.1">Created layout of plugin</revision>
+  <tag name="Unknown" offset="0" visible="False" />
+  <id name="Unknown" offset="12" visible="false" />
+  <tag name="Unknown" offset="16" visible="False" />
+  <id name="Unknown" offset="28" visible="false" />
+  <undefined name="Unknown" offset="32" visible="false" />
+  <undefined name="Unknown" offset="36" visible="false" />
+  <undefined name="Unknown" offset="40" visible="false" />
+  <undefined name="Unknown" offset="44" visible="false" />
+  <undefined name="Unknown" offset="48" visible="false" />
+  <undefined name="Unknown" offset="52" visible="false" />
+  <undefined name="Unknown" offset="56" visible="false" />
+  <undefined name="Unknown" offset="60" visible="false" />
+  <undefined name="Unknown" offset="64" visible="false" />
+  <undefined name="Unknown" offset="68" visible="false" />
+  <undefined name="Unknown" offset="72" visible="false" />
+  <undefined name="Unknown" offset="76" visible="false" />
+  <undefined name="Unknown" offset="80" visible="false" />
+  <undefined name="Unknown" offset="84" visible="false" />
+  <undefined name="Unknown" offset="88" visible="false" />
+  <undefined name="Unknown" offset="92" visible="false" />
+  <undefined name="Unknown" offset="96" visible="false" />
+  <undefined name="Unknown" offset="100" visible="false" />
+  <undefined name="Unknown" offset="104" visible="false" />
+  <undefined name="Unknown" offset="108" visible="false" />
+  <undefined name="Unknown" offset="112" visible="false" />
+  <undefined name="Unknown" offset="116" visible="false" />
+  <undefined name="Unknown" offset="120" visible="false" />
+  <undefined name="Unknown" offset="124" visible="false" />
+  <undefined name="Unknown" offset="128" visible="false" />
+  <undefined name="Unknown" offset="132" visible="false" />
+  <undefined name="Unknown" offset="136" visible="false" />
+  <undefined name="Unknown" offset="140" visible="false" />
+  <undefined name="Unknown" offset="144" visible="false" />
+  <undefined name="Unknown" offset="148" visible="false" />
+  <undefined name="Unknown" offset="152" visible="false" />
+  <undefined name="Unknown" offset="156" visible="false" />
+  <undefined name="Unknown" offset="160" visible="false" />
+</plugin>

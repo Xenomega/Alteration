@@ -1,0 +1,15 @@
+<plugin class="udlg" author="-DeToX-" version="0.1" headersize="36">
+  <revision author="-DeToX-" version="0.1">Mapped plugin structure a new.</revision>
+  <undefined name="Unknown" offset="0" visible="False" />
+  <undefined name="Unknown" offset="4" visible="False" />
+  <undefined name="Unknown" offset="8" visible="False" />
+  <undefined name="Unknown" offset="12" visible="False" />
+  <undefined name="Unknown" offset="16" visible="False" />
+  <struct name="Sounds" offset="20" visible="false" size="24" label="">
+    <undefined name="Unknown" offset="0" visible="false" />
+    <int name="Some Sound Index" offset="4" visible="True" />
+    <tag name="Sound" offset="8" visible="True" />
+    <id name="Sound" offset="20" visible="True" />
+  </struct>
+  <undefined name="Unknown" offset="32" visible="False" />
+</plugin>

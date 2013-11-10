@@ -1,0 +1,22 @@
+<plugin class="wscl" author="-DeToX-" version="0.2" headersize="36">
+  <revision author="-DeToX-" version="0.1">Mapped plugin structure a new.</revision>
+  <revision author="DarkShallFall" version="0.2">X, y scale and found types for other unknowns.</revision>
+  <long name="Unknown" offset="0" visible="False" />
+  <struct name="Scale" offset="4" visible="true" size="36">
+    <long name="Unknown" offset="0" visible="False" />
+    <short name="Unknown" offset="4" visible="False" />
+    <short name="Unknown" offset="6" visible="False" />
+    <float name="Unknown" offset="8" visible="False" />
+    <float name="Unknown" offset="12" visible="False" />
+    <float name="X Scale" offset="16" visible="true" />
+    <float name="Y Scale" offset="20" visible="true" />
+    <undefined name="Unknown" offset="24" visible="False" />
+    <undefined name="Unknown" offset="28" visible="False" />
+    <undefined name="Unknown" offset="32" visible="False" />
+  </struct>
+  <long name="Unknown" offset="16" visible="False" />
+  <undefined name="Unknown" offset="20" visible="False" />
+  <undefined name="Unknown" offset="24" visible="False" />
+  <float name="Unknown" offset="28" visible="False" />
+  <undefined name="Unknown" offset="32" visible="False" />
+</plugin>

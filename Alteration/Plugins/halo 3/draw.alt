@@ -1,0 +1,4 @@
+<plugin class="draw" author="-DeToX-" version="0.1" headersize="4">
+  <revision author="-DeToX-" version="0.1">Created layout of plugin</revision>
+  <undefined name="Unknown" offset="0" visible="false" />
+</plugin>

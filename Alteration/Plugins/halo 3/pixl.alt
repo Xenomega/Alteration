@@ -1,0 +1,15 @@
+<plugin class="pixl" author="-DeToX-" version="0.1" headersize="32">
+  <revision author="-DeToX-" version="0.1">Created layout of plugin</revision>
+  <undefined name="Unknown" offset="0" visible="false" />
+  <struct name="Unknown0" offset="4" visible="false" size="2" label="">
+    <short name="Unknown" offset="0" visible="false" />
+  </struct>
+  <undefined name="Unknown" offset="12" visible="false" />
+  <undefined name="Unknown" offset="16" visible="false" />
+  <struct name="Unknown1" offset="20" visible="false" size="12" label="">
+    <undefined name="Unknown" offset="0" visible="false" />
+    <undefined name="Unknown" offset="4" visible="false" />
+    <undefined name="Unknown" offset="8" visible="false" />
+  </struct>
+  <undefined name="Unknown" offset="28" visible="false" />
+</plugin>

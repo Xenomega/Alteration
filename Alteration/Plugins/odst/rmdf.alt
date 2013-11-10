@@ -1,0 +1,43 @@
+<plugin class="rmdf" author="-DeToX-" version="0.1" headersize="92">
+  <revision author="-DeToX-" version="0.1">Created layout of plugin</revision>
+  <tag name="Unknown" offset="0" visible="False" />
+  <id name="Unknown" offset="12" visible="false" />
+  <struct name="Methods" offset="16" visible="True" size="24" label="">
+    <stringid name="Type" offset="0" visible="True" />
+    <struct name="Shader Options" offset="4" visible="True" size="28" label="">
+      <stringid name="Type" offset="0" visible="True" />
+      <tag name="Option" offset="4" visible="True" />
+      <id name="Option" offset="16" visible="True" />
+      <undefined name="Unknown" offset="20" visible="false" />
+      <undefined name="Unknown" offset="24" visible="false" />
+    </struct>
+    <undefined name="Unknown" offset="12" visible="false" />
+    <undefined name="Unknown" offset="16" visible="false" />
+    <undefined name="Unknown" offset="20" visible="false" />
+  </struct>
+  <undefined name="Unknown" offset="24" visible="false" />
+  <struct name="Unknown2" offset="28" visible="false" size="16" label="">
+    <undefined name="Unknown" offset="0" visible="false" />
+    <struct name="Unknown3" offset="4" visible="false" size="16" label="">
+      <undefined name="Unknown" offset="0" visible="false" />
+      <undefined name="Unknown" offset="4" visible="false" />
+      <undefined name="Unknown" offset="8" visible="false" />
+      <undefined name="Unknown" offset="12" visible="false" />
+    </struct>
+    <undefined name="Unknown" offset="12" visible="false" />
+  </struct>
+  <undefined name="Unknown" offset="36" visible="false" />
+  <struct name="Unknown4" offset="40" visible="false" size="16" label="">
+    <undefined name="Unknown" offset="0" visible="false" />
+    <undefined name="Unknown" offset="4" visible="false" />
+    <undefined name="Unknown" offset="8" visible="false" />
+    <undefined name="Unknown" offset="12" visible="false" />
+  </struct>
+  <undefined name="Unknown" offset="48" visible="false" />
+  <tag name="Unknown" offset="52" visible="False" />
+  <id name="Unknown" offset="64" visible="false" />
+  <tag name="Unknown" offset="68" visible="False" />
+  <id name="Unknown" offset="80" visible="false" />
+  <undefined name="Unknown" offset="84" visible="false" />
+  <undefined name="Unknown" offset="88" visible="false" />
+</plugin>

@@ -1,0 +1,6 @@
+<plugin class="chmt" author="-DeToX-" version="0.1" headersize="12">
+  <revision author="-DeToX-" version="0.1">Created layout of plugin</revision>
+  <struct name="Unknown0" offset="0" visible="false" size="4" label="">
+    <undefined name="Unknown" offset="0" visible="false" />
+  </struct>
+</plugin>
